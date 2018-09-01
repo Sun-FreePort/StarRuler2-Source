@@ -1,0 +1,357 @@
+SC_Hulls: [hspace=4/][img=DesignationIcons::16;32x32/][hspace=6/] [color=#cc6a3a]船体[/color]
+SC_Control: [vspace=-14][img=Bridge;42x42/][/vspace] [color=#2fd6b3]控制[/color]
+SC_Weapons: [vspace=-18][hspace=-22/][img=Railgun::2;70x53/][/vspace][hspace=-10/] [color=#f9464d]武器[/color]
+SC_Propulsion: [hspace=-10/][vspace=-56][img=RocketEngine;84x84/][/vspace][hspace=-32/] [color=#f9e146]推进[/color]
+SC_Defense: [vspace=-14][img=PlateArmor;42x42/][/vspace] [color=#a9a9a9]防御[/color]
+SC_FTL: [img=HexagonSubsystems::10;42x21;#f00/] [color=#67a7ad]跃迁[/color]
+SC_Modifiers: [img=HexagonSubsystems::0;42x21;#cf00ff/] [color=#eda1ff]强化[/color]
+SC_Support: [vspace=-14][img=SupportCommand;42x42/][/vspace] [color=#eda1ff]支援舰[/color]
+SC_Equipment: [vspace=-22][hspace=-29/][img=TractorGun::2;100x76/][/vspace][hspace=-29/] [color=#8bb800]装备[/color]
+SC_Misc: 其他
+
+CREWCONTROL_NAME: 舰桥和船员
+CREWCONTROL_DESC: <<
+	一个舰桥, 船员舱, 和帮助船组指挥战舰的其他设施. 
+
+	[img=ActionBarIcons::0;22;#00ff80]提供对其他子系统的[b][color=#00ff80]控制[/color][/b]. [/img]
+	[img=Plus]可以缓慢地修复飞船. [/img]
+	[img=Minus]如果没有剩余的控制设备飞船就会被摧毁. [/img]
+>>
+
+CREWDECK_NAME: 船员甲板
+CREWDECK_DESC: <<
+	为船员提供指挥支援舰所需的最小甲板. 
+
+	[img=ActionBarIcons::0;22;#00ff80]提供对其他子系统的[b][color=#00ff80]控制[/color][/b]. [/img]
+	[img=Plus]可以缓慢地修复飞船. [/img]
+	[img=Minus]如果没有剩余的控制设备飞船就会被摧毁. [/img]
+>>
+
+SHIPCOMPUTER_NAME: 指挥电脑
+SHIPCOMPUTER_DESC: <<
+	一台有能力控制众多飞船系统的独立电脑. 
+	
+	能支撑起大量子系统的运作. 
+	需要能源来驱动. 
+	如果没有剩余的控制设备飞船就会被摧毁. 
+>>
+
+SUPPLYMODULE_NAME: 补给仓库
+SUPPLYMODULE_DESC: <<
+	为作战及围攻行星提供补给和弹药. 
+
+	[img=AttributeIcons::4;22]提供[b][color=#fefc61]补给上限[/color][/b]. [/img]
+	[img=Minus]被破坏的补给舱网格会逐渐泄露补给. [/img]
+>>
+
+SUPPORTCAPMODULE_NAME: 支援舰指挥
+SUPPORTCAPMODULE_DESC: <<
+	指挥舰队支援舰的技术设施. 
+
+	[img=ActionBarIcons::2;22]提供[b][color=#00cffe]支援舰指挥[/color][/b]. [/img]
+	[img=Minus]被摧毁后可能会失去对支援舰的控制. [/img]
+>>
+
+SHIELDGEN_NAME: 护盾生成器
+SHIELDGEN_DESC: <<
+	在飞船周围生成护盾, 吸收将要受到的伤害. 
+
+	[img=Plus]生成会自动回复的吸收伤害的屏障. [/img]
+	[img=Minus]被削弱的护盾会让伤害穿过. [/img]
+>>
+
+FISSIONGEN_NAME: 原子裂变发电机
+FISSIONGEN_DESC: <<
+	基于原子裂变的发电机. 
+
+	[img=ResourceIcon::2;22]提供控制其他子系统的[b][color=#42b4bd]能源[/color][/b]. [/img]
+	[img=AttributeIcons::4;22]提供[b][color=#0f0]高[/color] [color=#fefc61]补给速率[/color][/b]. [/img]
+	[img=Minus]在战斗中失去必须的能源供给设备会使战舰效能降低. [/img]
+>>
+
+FUSIONGEN_NAME: 核聚变发电机
+FUSIONGEN_DESC: <<
+	通过核聚变发电. 
+
+	[img=ResourceIcon::2;22]提供控制其他子系统的[b][color=#0f0]大量[/color][/b][b][color=#42b4bd]能源[/color][/b]. [/img]
+	[img=AttributeIcons::4;22]提供[b]适中的[color=#fefc61]补给速率[/color][/b]. [/img]
+	[img=Minus]在战斗中失去必须的能源供给设备会使战舰效能降低. [/img]
+>>
+
+AMGEN_NAME: 反物质发电机
+AMGEN_DESC: <<
+	通过反物质湮灭来提供持续的能源. 
+
+	[img=ResourceIcon::2;22]提供控制其他子系统的[b][color=#0f0]巨量[/color][/b][b][color=#42b4bd]能源[/color][/b]. [/img]
+	[img=AttributeIcons::4;22]提供[b][color=#0f0]很高的[/color] [color=#fefc61]补给速率[/color][/b]. [/img]
+	[img=Plus]没有维护费. [/img]
+	[img=Minus]高建造成本. [/img]
+	[img=Minus]在战斗中失去必须的能源供给设备会使战舰效能降低. [/img]
+>>
+
+RAILBATTERY_NAME: 轨道炮电池
+RAILBATTERY_DESC: <<
+	磁力轨道炮, 可以超高速发射相对较小的炮弹. 
+	
+	[img=Plus]高射速. [/img]
+	[img=Minus]炮弹精度低. [/img]
+	[img=Minus]炮台弹道受限. [/img]
+>>
+
+MUONBATTERY_NAME: 介子炮电池
+MUONBATTERY_DESC: <<
+	以接近光速的速度发射生成的介子. 
+	
+	利用新科技改进轨道炮电池. 
+	
+	[img=Plus]超快的射速. [/img]
+	[img=Plus]可穿透装甲. [/img]
+	[img=Minus]伤害较低. [/img]
+	[img=Minus]炮弹精度低. [/img]
+	[img=Minus]炮台弹道受限. [/img]
+>>
+
+RAILGUN_NAME: 轨道炮
+RAILGUN_DESC: <<
+	磁力轨道炮, 可以超高速发射相对较小的炮弹. 
+	
+	[img=Plus]每颗炮弹伤害值高. [/img]
+	[img=Minus]炮弹精度低. [/img]
+	[img=Minus]炮台弹道受限. [/img]
+>>
+
+MUON_CANNON_NAME: 介子炮
+MUON_CANNON_DESC: <<
+	以接近光速的速度发射生成的介子. 
+	
+	利用新科技改进轨道炮电池. 
+	
+	[img=Plus]超快的射速. [/img]
+	[img=Plus]可穿透装甲. [/img]
+	[img=Minus]伤害较低. [/img]
+	[img=Minus]炮弹精度低. [/img]
+	[img=Minus]炮台弹道受限. [/img]
+>>
+
+LASER_NAME: 激光炮
+LASER_DESC: <<
+	通过集聚光能来在船体上打通孔洞造成伤害. 
+	
+	[img=Plus]精度高, 瞬时激光锁定. [/img]
+	[img=Plus]低[b][color=#fefc61]补给消耗[/color][/b]. [/img]
+	[img=Minus]对抗装甲效率低下. [/img]
+	[img=Minus]炮台弹道非常受限. [/img]
+>>
+
+MISSILELAUNCHER_NAME: 导弹发射器
+MISSILELAUNCHER_DESC: <<
+	带有爆炸物的导弹, 拥有足够推进剂, 从船体下部伸出后瞄准目标. 
+	
+	[img=Plus]高[b][color=#ff8080]伤害[/color][/b]. [/img]
+	[img=Plus]没有弹道限制. [/img]
+	[img=Plus]对穿透装甲非常有效. [/img]
+	[img=Minus]低射速. [/img]
+	[img=Minus]非常高的[b][color=#fefc61]补给消耗[/color][/b]. [/img]
+>>
+
+S_SELF_DESTRUCT: 自毁装置
+S_SELF_DESTRUCT_DESC: <<
+	设计用来当母舰不稳定时引爆的弹头. 
+	
+	[img=Plus]在很大的范围内造成毁灭性的伤害. [/img]
+	[img=Minus]直接致死. [/img]
+>>
+
+PLATEARMOR_NAME: 电镀装甲
+PLATEARMOR_DESC: <<
+	重型联锁金属装甲, 可以保护战舰舰体. 
+	
+	[img=Plus]高[b][color=#80ff80]生命值[/color][/b]. [/img]
+	[img=Plus]抵抗并减少受到的伤害. [/img]
+	[img=Plus]放置于船体外表的装甲不会消耗飞船内部空间. [/img]
+	[img=Minus]厚重. [/img]
+>>
+
+ABLATIVEARMOR_NAME: 烧灼装甲
+ABLATIVEARMOR_DESC: <<
+	坚硬的金属棉, 可以通过自我烧灼吸收伤害. 
+	
+	[img=Plus]高[b][color=#c6c33a]伤害抗性[/color][/b]. [/img]
+	[img=Plus]放置于船体外表的装甲不会消耗飞船内部空间. [/img]
+	[img=MenuIcons::3;20]对大量小型炮弹十分有效. [/img]
+>>
+
+REACTIVEARMOR_NAME: 反应装甲
+REACTIVEARMOR_DESC: <<
+	一层靠瞬时爆炸应对迎面武器火力的独立爆炸物. 
+
+	[img=Plus]超过[b][color=#c33ac6]伤害极限值[/color][/b]的伤害会显著减少. [/img]
+	[img=Plus]放置于船体外表的装甲不会消耗飞船内部空间. [/img]
+	[img=MenuIcons::3;20]对单发重型炮弹十分有效. [/img]
+>>
+
+NEUTRONARMOR_NAME: 中子装甲
+NEUTRONARMOR_DESC: <<
+	在标准电镀装甲中掺杂小型中子颗粒. 
+	
+	[img=Plus]极高的[b][color=#80ff80]生命值[/color][/b]. [/img]
+	[img=Plus]放置于船体外表的装甲不会消耗飞船内部空间. [/img]
+	[img=Minus]极度厚重. [/img]
+	[img=Minus]造价高昂. [/img]
+>>
+
+ROCKETENGINE_NAME: 火箭引擎
+ROCKETENGINE_DESC: <<
+	高速排出大量的质量来产生推力. 
+	
+	[img=Plus]非常大的推力. [/img]
+	[img=Minus]高维护费. [/img]
+>>
+
+IONENGINE_NAME: 离子引擎
+IONENGINE_DESC: <<
+	以极高的速度喷射出少量燃料. 
+	
+	[img=Plus]低维护费. [/img]
+	[img=Minus]低推力. [/img]
+	[img=Minus]需要能源来驱动. [/img]
+>>
+
+GRAVITYENGINE_NAME: 引力子引擎
+GRAVITYENGINE_DESC: <<
+	高强度的引力子波, 可以悄无声息地推动飞行器. 
+	
+	[img=Plus]高推力. [/img]
+	[img=Plus]可以内置于飞船中. [/img]
+	[img=Minus]昂贵. [/img]
+	[img=Minus]高能源需求. [/img]
+>>
+
+BULKHEAD_NAME: 气密隔舱
+BULKHEAD_DESC: <<
+	可在子系统上强化舱体, 使得内部结构对伤害的抗性提升. 
+
+	[img=Plus;22;#cf00ff]可以放置在拥有核心或者炮台的无装甲子系统上. 无法被放置在舰桥或者没有核心的子系统上. [/img]
+	[img=Plus]提升该子系统内所有网格的生命值. [/img]
+	[img=Minus]提升子系统的建造成本. [/img]
+	[i][color=#aaa]在一个子系统上可以重复放置气密隔舱来进一步提升其所有网格的生命值, 但也会使得其造价呈指数上升. [/color][/i]
+>>
+
+TARGETINGSENSOR_NAME: 瞄准传感器
+TARGETINGSENSOR_DESC: <<
+	复杂的瞄准和追踪传感器, 可以使武器精度提升, 并提升武器的有效射程. 
+
+	[img=Plus;22;#cf00ff]可以被放置于武器子系统上. [/img]
+	[img=Plus]提升武器的[b][color=#80ffea]射程[/color][/b]. [/img]
+	[img=Minus]提升武器的建造和维护费用. [/img]
+	[img=Minus]提升使用武器时的[b][color=#fefc61]补给消耗[/color][/b]. [/img]
+	[i][color=#aaa]在一个武器上重复放置瞄准传感器可以进一步提升其射程, 但也会使得其造价呈指数上升. [/color][/i]
+>>
+
+SUPPORTSUPPLY_NAME: 补给箱
+SUPPORTSUPPLY_DESC: <<
+	可以放置于特定支援舰上的次级补给仓库, 提升其弹药量, 以及舰队所需的作战材料. 
+
+	[img=AttributeIcons::4;22]为舰队提升[b][color=#fefc61]补给上限[/color][/b]. [/img]
+	[img=Minus]提升支援舰的维护成本. [/img]
+	[img=Minus]被毁坏的补给舱网格会持续泄露补给. [/img]
+	[img=MenuIcons::3;20;#f00][i][color=#faa]需要维护费用的支援舰无法由星球防御生成. [/color][/i][/img]
+>>
+
+S_EMERGENCY_SUPPLIES: 紧急补给
+S_EMERGENCY_SUPPLIES_DESC: <<
+	帝国能量的输出结点. 可以在星际中任何地方产出补给, 但成本也很高昂. 
+	
+	[img=AttributeIcons::4;22]立即生成补给. [/img]
+	[img=Minus]消耗能量. [/img]
+	[img=Minus]冷却时间30秒. [/img]
+>>
+ABL_EMERGENCY_SUPPLIES: 生成补给
+ABL_EMERGENCY_SUPPLIES_DESC: 填充飞船补给
+
+S_HYPERLASER: 高能激光
+S_HYPERLASER_DESC: <<
+	短时的, 拥有几乎可以立刻生成物质的能力的高能激光. 
+
+	[img=Plus]精准度高, 并可以瞬时锁定目标. [/img]
+	[img=Plus]快速造成伤害. [/img]
+	[img=Minus]伤害值低. [/img]
+>>
+
+S_TRACTOR_BEAM: 牵引光束
+S_TRACTOR_BEAM_DESC: <<
+	与内部阻尼场结合的复杂的引力子发射器, 使得飞船可以把推力提供给其他物体. 对应物体会以与飞船相同的速度, 相对静止地悬浮前进, 飞船就可以把物体移动. 
+
+	[img=MenuIcons::3;20][color=#aaa]可以将牵引光束作用于神器, 小行星, 轨道卫星和其他飞船. [/color][/img]
+	[img=MenuIcons::3;20][color=#aaa]其他飞船会利用它们自己的推进器试图摆脱牵引光束. [/color][/img]
+	[img=ResourceIcon::3;20;#f00][color=#aaa]被牵引光束作用的飞船无法使用跃迁引擎. [/color][/img]
+>>
+ABL_TRACTOR_BEAM: 开关牵引光束
+ABL_TRACTOR_BEAM_DESC: 开关飞船的牵引光束.
+ABL_TRACTOR_NO: 无法牵引
+
+S_BUSTER_BEAM: 终结光束
+S_BUSTER_BEAM_DESC: 拥有摧毁整个星球的能力的超高能激光武器.
+
+S_ION_CANNON: 离子炮
+S_ION_CANNON_DESC: <<
+	可以瞬时让敌舰引擎过载的充能激光. 
+	
+	[img=Plus]让敌舰的亚光速和跃迁引擎双双失效. [/img]
+	[img=ResourceIcon::2;22]需要消耗[b][color=#42b4bd]能量[/color][/b]来发射. [/img]
+	[img=MenuIcons::3;20][color=#aaa]可以向敌军飞船发射. [/color][/img]
+	[img=MenuIcons::3;20][color=#aaa]引擎失效时间取决于离子炮的尺寸. [/color][/img]
+>>
+
+S_SKIP_DRIVE: 跳跃引擎
+S_SKIP_DRIVE_DESC: <<
+	可以消耗纯能量来在量子维度瞬间传送飞船的引擎系统. 
+	
+	[img=Plus]瞬间传送到附近的一个地点. [/img]
+	[img=ResourceIcon::2;22]需要消耗[b][color=#42b4bd]能量[/color][/b]来激活. [/img]
+	[img=MenuIcons::3;20][color=#aaa]飞船传送的距离越远, 所需的能量就越高. [/color][/img]
+	[img=MenuIcons::3;20][color=#aaa]跳跃引擎的尺寸越大, 需要的能量消耗就越小. [/color][/img]
+>>
+
+S_GRAVITON_CONDENSER: 重力压缩器
+S_GRAVITON_CONDENSER_DESC: <<
+	高强度的激光发生器, 可以让一个星体因自己的重力崩塌, 压缩, 最终爆炸. 
+
+	[img=Plus]激光在激活后可对恒星或行星直接造成伤害. [/img]
+>>
+ABL_GRAVITON_CONDENSER: 启动重力压缩器
+ABL_GRAVITON_CONDENSER_DESC: 发射一束可以让星体因自己的重力而崩塌的激光, 使该星体被压缩并爆炸.
+
+S_CLOAKPLATING: 隐形涂层
+S_CLOAKPLATING_DESC: <<
+	将飞船整个覆盖在一种特殊吸能材料中, 使得飞船不会被敌人直接发现. 
+
+	[img=Plus]激活后, 舰队在一段距离外不会被发现. [/img]
+	[img=ResourceIcon::2;22]隐形在激活时会缓慢消耗[b][color=#42b4bd]能量[/color][/b]. [/img]
+	[img=Minus]当舰队进入战斗状态后隐形状态会消失. [/img]
+	[img=MenuIcons::3;20][color=#aaa]要想成功隐形, 飞船外表必须全部涂有隐形涂层. [/color][/img]
+>>
+ABL_CLOAK: 开关隐形
+ABL_CLOAK_DESC: <<
+	开启或关闭隐形. 
+
+	隐形状态要消耗一定的能量来维持, 舰队参与战斗后隐形状态会自动消失. 
+>>
+STATUS_CLOAKED: 已隐形
+STATUS_CLOAKED_DESC: <<
+	此舰队处于隐形状态. 
+
+	隐形要消耗一定的能量来维持, 舰队参与战斗后隐形状态会自动消失. 
+>>
+
+S_TITAN_HULL: 泰坦船体
+S_TITAN_HULL_DESC: <<
+	一种异常巨大的船体框架, 让大型舰船可以更有效地建造. 
+
+	[img=Plus]更大的内部空间. [/img]
+	[img=Plus]飞船尺寸变大时, 建造成本可最多减少50%. [/img]
+	[img=Plus]严谨的建造让炮台潜在弹道得到提升. [/img]
+	[img=Minus]极其厚重. [/img]
+	[img=Minus]跃迁引擎速度大大降低. [/img]
+	[img=Minus]只能用于规模在500或以上的飞船上. [/img]
+>>

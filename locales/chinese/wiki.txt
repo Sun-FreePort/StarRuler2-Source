@@ -1,0 +1,7 @@
+WIKI_HOME: 首页
+WIKI_BACK: 返回
+WIKI_TITLE: Wiki: $1
+WIKI: Wiki
+WIKI_BROWSER: 在浏览器中打开
+WIKI_LOADING: Loading...
+WIKI_404: 页面不存在哦。欢迎去 GitHub 反馈这个问题(GitHub 上搜索 StarRuler2-Source，进入 Issue 发帖提问)

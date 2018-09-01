@@ -1,0 +1,213 @@
+ERROR_NOT_UNLOCKED: $1 未解锁。
+ERROR_MODULE_NOT_UNLOCKED: 模块 $1 未解锁。
+ERROR_NO_CORE: $1 需要控制中心。
+ERROR_NEEDS_EXTERIOR_CORE: $1 的控制中心在外部。
+ERROR_REQUIRED_MODULE: $1 缺少所需的 $2 模块。
+ERROR_UNIQUE_MODULE: $1 上只允许放置一个 $2。
+ERROR_INSUFFICIENT_Crew: 人手不足。
+ERROR_INSUFFICIENT_Command: 控制力不足。
+ERROR_INSUFFICIENT_Power: 能源短缺。
+ERROR_DUPLICATE_DESIGN: 存在重名设计，重命名为 '$1'。
+ERROR_INVALID_FILE: 非有效设计文件.
+ERROR_INVALID_HULL: 无法在此类型船体上使用 $1.
+ERROR_MINIMUM_SIZE: ' $1' 船体最小尺寸为 $2.
+ERROR_MAXIMUM_SIZE: ' $1' 船体最大尺寸为 $2.
+ERROR_MIN_SIZE: $1 的最小尺寸为 $2.
+ERROR_HULL_NOT_IN_SHIPSET: 当前舰组无法使用此设计图的船体.
+ERROR_NEED_CONTROL: 至少需要 1 单位控制.
+ERROR_HEX_LIMIT_ARC: $1 炮台必须指向飞船外部.
+ERROR_FACE_BACKWARDS: $1 排气口必须指向飞船后侧.
+ERROR_NOT_CONNECTED: 设计图必须构成相互连接的整体.
+ERROR_NOT_CONTIGUOUS: $1 必须是相互连接的整体.
+ERROR_TOO_SMALL: $1 太小了.
+ERROR_GRID_SIZE: 无效的网格尺寸.
+ERROR_HEX_COUNT: 使用的内部空间过大.
+ERROR_MUST_BE_EXTERIOR: 所有 $1 网格必须都是外表面网格.
+ERROR_MUST_COVER: $1 必须覆盖飞船的所有方向.
+ERROR_ONE_APPLIED: 只能使用一个 $1.
+ERROR_CANNOT_APPLY: 不能使用 $1 子系统.
+ERROR_MUST_ADJACENT: All hexes must be adjacent to at least one $1。
+ERROR_MUST_ADJACENT_INTERIOR: Interior hexes must be adjacent to at least one $1。
+ERROR_CONTIGUOUS: $1 must be a connected whole。
+ERROR_MUST_BE_FILLED: Interior space must be filled。
+ERROR_EXPOSE_LEFT_RIGHT: $1 must be exterior on both the left and right sides of the design。
+ERROR_ONLY_ONE: Only one $1 is allowed。
+ERROR_NEED_PRAYER: Ship requires a Shrine to generate prayer。
+ERROR_EQUAL_PRAYER: Must have at least as much Prayer as Control。
+ERROR_NEED_SHIELD: $1 can only be used if the ship has Shields。
+ERROR_CANNOT_HAVE_WEAPONS: $1 cannot have weapons。
+ERROR_ALL_POWER: All power must come from the $1。
+ERROR_BRIDGE_AI: Ship cannot be controlled by both crew and an AI。
+ERROR_REQUIRE_SCOOP: $1 must contain at least one Ramscoop。
+ERROR_SCOOP_FACE_FRONT: Ramscoops must be exterior and face the front of the ship。
+ERROR_MUST_SURROUND: $1 must be surrounded by $2 hexes。
+ERROR_NOT_ALLOWED_ON_MOTHERSHIP: $1 is not allowed on Mothership hulls。
+REQUIRE_CONSTRUCTION_BAY: $1 requires Construction Bay to feed labor into。
+APPLIED_HULL: 船体
+DESIGNS: 设计图
+DSG_INSERT_NAME: 为设计图取名...
+AUTO_SELECT_HULL: 自动选择船体模型...
+FORCE_HULL: 船体模型: $1
+DESIGN_HEX_LIMIT: 内部空间: $1 / $2
+TT_DESIGN_HEX_LIMIT: <<
+	设计图所能使用的内部网格数量是有上限的.
+
+	某些子系统, 比如装甲, 只能放在船体外表面, 这些子系统网格则不算在内部网格数量内.
+>>
+
+TIP_ROTATE: 你可以使用滚轮改变炮台的指向.
+
+SUBSYS_CORE: 核心
+SUBSYS_AT: " 在 "
+SUBSYS_HEX: "六边形网格"
+
+HULL_DELETE_FILE_CONFIRM: 你确定要删除船体文件 '$1' 吗?
+HULL_DELETE_HULL_CONFIRM: 你确定要删除船体 '$1' 吗?
+HULL_CLEAR: 清空船体
+HULL_CONFIRM_CLEAR: 你确定要清除船体工作数据吗?
+
+IMPORT_ERRORS: 导入时发生以下错误:
+IMPORT_INTO_CLASS: 导入至类型:
+SAVED_CLASS: <已保存类型>
+EXPORT_DESIGN: 导出
+DUPLICATE_DESIGN: 复制
+
+SANDBOX_WAR: 战斗!
+SANDBOX_PEACE: 停火...
+SPAWN_ALLIED: 生成友军
+SPAWN_ENEMY: 生成敌军
+SANDBOX_CLEAR: 清空沙盒
+SANDBOX_CONFIRM_CLEAR: 确认要销毁沙盒里的所有舰船吗?
+SANDBOX_DESC: 欢迎来到设计沙盒! \n设计图将自动导出到这里. \n在游戏中使用'导入设计图'来读取他们.
+SANDBOX_SAVE_EXPORT: 保存并导出
+
+TT_EDIT_DESIGN: 编辑此设计图.
+TT_OBSOLETE_DESIGN: 将此设计图标记为过时设计. 它将不再于设计图列表中显示. 过时的支援舰设计图将不会被产出的防御自动建造.
+TT_UNOBSOLETE_DESIGN: 将该设计图再次投入使用, 移除它的过时状态.
+SHOW_OBSOLETE: 显示过时设计图
+TT_SHOW_OBSOLETE: 切换是否显示被标记为过时的设计图.
+TT_SUPPORT_DESIGN: 该设计图使用了支援舰船体. 支援舰不能独立移动, 而只能作为大型舰队的一份子, 以旗舰或行星为核心而存在.
+TT_FLAGSHIP_DESIGN: 该设计图使用了旗舰船体. 旗舰可以独立自主地行动, 并可为支援舰队提供指挥. 一艘旗舰可以带领的支援舰数量取决于该设计图拥有多少"支援舰指挥"值.
+TT_STATION_DESIGN: 该设计图使用了太空站船体. 太空站不能自主移动, 但可以作为轨道卫星远程建造.
+TT_SATELLITE_DESIGN: This design uses a support satellite hull。
+
+S_HP: 总耐久值
+S_HexHP: 耐久值
+STT_HP: 设计图中所有网格耐久值的总和.
+
+S_REPAIR: 每秒修理量
+STT_REPAIR: 飞船每秒可以修理的耐久值. 在战斗中时该速率减少至该数值的25%
+
+S_Shield: 护盾承载力
+STT_Shield: 护盾的最大耐久值.
+
+S_ShieldRegen: 护盾回复
+STT_ShieldRegen: 每秒护盾值回复量.
+
+S_DPS: 每秒伤害值
+STT_DPS: 飞船在战斗中未受伤害时每秒可以造成的伤害值(DPS).
+
+S_SUPPLYCAP: 补给上限
+STT_SUPPLYCAP: 这艘旗舰可贮藏的总补给量.
+
+S_SUPPLYCAP_SUPPORT: Ammo Stores
+STT_SUPPLYCAP_SUPPORT: The amount of supply this ship can take with it on an attack run made detached from its fleet。 When the local supply stores run out, the support ship needs to return to the fleet to resupply for the next run。 Not all support ship behaviors pefrom attack runs。
+
+S_SUPPORTCAP: 支援舰指挥
+STT_SUPPORTCAP: 这艘旗舰最多所能指挥的支援舰的总规模之和.
+
+S_ACCEL: 加速
+STT_ACCEL: 这艘飞船工作时所能维持的最大加速速度.
+
+S_BOOST_ACCELERATION: Boost Acceleration
+STT_BOOST_ACCELERATION: The extra acceleration boost the ship gains while it is raiding。 This is added to the base acceleration。
+
+S_THRUST: 推力
+STT_THRUST: 这艘飞船在亚光速下能产生的最大推力.
+
+S_TURN_THRUST: Turn Rate
+STT_TURN_THRUST: The speed at which the ship can rotate to change direction。
+
+S_MASS: 质量
+STT_MASS: 飞船的总质量.
+
+S_SUPPLYREGEN: 重填速率
+STT_SUPPLYREGEN: 在友好领地的每秒补给重填量.
+
+S_SUPPLYUSE: 战斗补给消耗
+STT_SUPPLYUSE: 在战斗中所有武器同时开火时的每秒补给消耗量.
+
+S_POWER: 能源
+STT_POWER: 飞船上所有子系统产生和消耗的能源量.
+
+S_CONTROL: 控制
+STT_CONTROL: 飞船上所有子系统产生和消耗的控制量.
+
+S_HYPERDRIVESPEED: 跃迁引擎速度
+STT_HYPERDRIVESPEED: 该飞船在为受伤害的情况下所能维持的跃迁速度.
+
+S_SLIPSTREAMTIME: 滑流时间
+STT_SLIPSTREAMTIME: 这艘飞船创造的滑流裂缝所能维持的时间.
+
+S_SLIPSTREAMOPTDIST: Slipstream Opt。 Distance
+STT_SLIPSTREAMOPTDIST: Any slipstreams created further away than this distance will incur FTL cost penalties。
+
+S_CargoStorage: Cargo Storage
+STT_CargoStorage: Used to store multiple types of materials, primarily those mined from asteroids。
+
+S_MiningRate: Mining Rate
+STT_MiningRate: Rate at which this ship's mining laser can mine materials from asteroids and put them into cargo storage。
+
+S_LaborIncome: Labor Generation
+STT_LaborIncome: The amount of labor generated per minute by this ship's construction bays。
+
+S_OreProcessRate: Ore Processing
+STT_OreProcessRate: Ore stored ore mined by this ship is processed into labor at this rate。
+
+S_LaborProcessRate: Processing Labor Output
+STT_LaborProcessRate: The amount of stored labor generated when enough ore is available to supply the full Ore Processing rate。
+
+S_OreCost: Ore Cost
+STT_OreCost: When building this ship, Ore mined from asteroids must be spent from local storage。
+
+S_PRAYER: Prayer
+STT_PRAYER: The amount of prayer the shrine on the ship provides。 Ships must have at least as much Prayer as they do Control。
+
+S_DPS_SMALL: DPS
+S_DAMAGE: 伤害
+S_BEAMDPS: 激光 DPS
+S_DURATION: 持续时间
+S_COOLDOWN: 冷却时间
+S_RELOAD: 重填速度
+S_RADIUS: 半径
+S_RANGE: 射程
+S_SPEED: 速度
+S_PROJ_DR: 炮弹伤害半径
+S_BEAM_DR: 激光伤害半径
+S_EXPL_DR: 爆炸物伤害半径
+S_DR: 伤害抗性
+S_DamageThreshold: 伤害极限值
+S_SUPPLYCOST: 补给消耗
+S_BUILDCOST: 成本
+S_LABORCOST: 产能成本
+S_RESUPPLY: 重填速率
+S_ENERGYCOST: 能量消耗
+S_COST_FACTOR: 成本参数
+S_STELLAR_DAMAGE: 星际伤害
+S_EFFICIENCYBOOST: Strength Boost
+S_Chance: Chance
+S_Percentage: Percentage
+S_PowerUse: Power Used
+S_BonusShield: Bonus Shields
+S_EnergyBuildCost: Energy Build Cost
+STT_EnergyBuildCost: The amount of the empire's energy that must be expended when first starting construction on a ship of this type。
+S_DroneCount: Drone Count
+S_SupplyGain: Supply Gain
+S_DamageOverTime: DoT DPS
+S_ConvertInterval: Conversion Interval
+S_InfluenceBuildCost: Influence Build Cost
+STT_InfluenceBuildCost: The amount of the empire's influence that must be expended when first starting construction on a ship of this type。
+S_FTLBuildCost: FTL Build Cost
+STT_FTLBuildCost: The amount of the empire's FTL energy that must be expended when first starting construction on a ship of this type。
+S_Instances: Instances
+S_RaidRange: Raiding Range

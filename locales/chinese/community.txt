@@ -1,0 +1,36 @@
+COMMUNITY_TITLE: $1 (社区)
+COMMUNITY_HOME_TITLE: 社区
+COMMUNITY_WIKI: Wiki: 首页
+UPLOAD: 上传
+FEATURED_DESIGNS: 特色设计
+COMMUNITY_DESIGN_SPEC: 尺寸 $1，由 $2 设计 ($3)
+COMMUNITY_DESIGN_CURLINE: [color=#aaa][img=ThumbsUp;20x20/] [b][color=#0f0]$1[/color][/b] [hspace=100/] [img=MenuIcons::6;20/] [b]$2[/b] 评论[/color]
+DOWNLOAD_DESIGN_CLASS: 已下载
+DOWNLOAD_TO_PROFILE: 下载至你的账户
+TT_DOWNLOAD_TO_PROFILE: <<|
+	将当前的设计下载到你的账户中，你可以在任何时刻导入它
+>>
+SUCCESS_DOWNLOAD_TO_PROFILE: 设计成功下载至 你的账户。
+DOWNLOAD_TO_EMPIRE: 下载至游戏
+TT_DOWNLOAD_TO_EMPIRE: <<|
+	仅将这份蓝图下载至你当前的游戏，它可以立刻被你使用。
+>>
+TT_DOWNLOAD_ERRORS: <<|
+	这个设计不能被下载到您的设计库中，因为它发生了一些错误：
+>>
+SUCCESS_DOWNLOAD_TO_EMPIRE: 成功下载至设计库。
+DOWNLOAD_EDIT: 在编辑器中载入
+TT_DOWNLOAD_EDIT: 在编辑器中载入此蓝图, 对其进行修改然后保存.
+VOTES_BUTTON: $1
+TT_VOTES_BUTTON: 对此设计进行评分。
+COMMENTS_BUTTON: $1 评论
+COMMENT_TEXT: 输入你的评论……
+COMMENT_SUBMIT: 发布评论
+COMMUNITY_CONFIRM_DELETE_DESIGN: 您确定删除您的设计吗？这个操作不可撤销哦。
+UPLOAD_DESIGN: 上传设计
+RECENT_DESIGNS: 近期设计
+TOPRATED_DESIGNS: 高分设计
+SEARCH_DESIGNS_PROMPT: 搜索设计……
+DESIGN_DESCRIPTION_PROMPT: 描述一下你的设计吧……
+DESIGN_CHOOSE_PROMPT: 选择一个设计……
+DESIGN_LINK_TIP: 你可以链接到这个设计 by typing [[design:$1]].

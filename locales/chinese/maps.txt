@@ -1,0 +1,29 @@
+SPIRAL_GALAXY: 螺旋星云
+SPIRAL_GALAXY_DESC: 具有螺旋图形的多悬臂星系.
+
+CORKSCREW_GALAXY: 螺纹星云
+CORKSCREW_GALAXY_DESC: 如同红酒开瓶器一般, 星系环绕一个柱状体.
+
+CLUSTERS_MAP: 星团星云
+CLUSTERS_MAP_DESC: 通过狭窄走廊连接的几个小型星团.
+
+DUMBBELL_MAP: 哑铃星云
+DUMBBELL_MAP_DESC: 一条星系回廊连接着两个大型的星团.
+
+PERFECT_MIRROR: 完美镜像
+TT_PERFECT_MIRROR: <<|
+	令星系的两边生成完美的镜像 (包括所有生成的行星, 文物, 异常, 旧帝国残余势力等内容都保持一致).
+
+	这样的地图, 旨在用于极度平衡的竞技比赛.
+>>
+
+EXPANSE_MAP: 无尽太空
+EXPANSE_MAP_DESC: <<|
+	占领旧帝国残余势力的领地, 或者向无尽的星海扩张.
+>>
+EXPANSE_MAP_TEXT: <<
+	[i][color=#aaa]玩家们围绕着旧帝国残部的星系而分布, 击溃旧帝国残余势力的军队, 殖民他们占据的星球, 旧帝国的残留舰队还把持着银河系的边缘星系, 击溃他们, 你就能发现更多未知的星云.[/color][/i]
+>>
+
+RINGS_MAP: 环状星云
+RINGS_MAP_DESC: 大型的环状星云.

@@ -1,0 +1,185 @@
+BLUEPRINTS: 蓝图
+OPTIONS: 选项
+TAB: Tab
+RESEARCH_OVERVIEW: 研究
+DESIGN_OVERVIEW: 设计
+GALAXY_CAMERA: 精彩瞬间
+GALAXY: 银河
+STATS_TAB: 统计
+SYSTEM_TAB: 系统
+PLANETS_TAB: 行星
+PLANETS_MODE_NORMAL: 综合
+PLANETS_MODE_MONEY: 商业
+PLANETS_MODE_PRODUCTION: 工业
+PLANETS_MODE_REQS: 农业
+PLANETS_MODE_TILES: 地表
+PLANETS_MODE_PRESSURE: 潜力
+NOTICE: 提示
+
+EMPIRE_ENERGY: "能量: "
+EMPIRE_SOLARGENS: "太阳能发动机: "
+EMPIRE_SUPPLY: $1/$2
+EMPIRE_SUPPLY_OUTPUT:$1%
+
+PLANET_INFO: $1 ($2B / $3B)
+PLANET_POPULATION: $1 十亿殖民者
+
+ANOMALY_FIELD: 异常
+SCAN_ANOMALY: 扫描异常
+INVESTIGATE_ANOMALY: 调查异常
+
+BACK_TO_OVERVIEW: 返回到概览
+
+CONCEPT: 概念
+CONSTRUCTION: 施工
+MISSION_GOALS: 任务目标
+REVIEW: 回顾
+
+BUILT_NOTIFICATION: $1 已建成.
+BUILT_AT_NOTIFICATION: 在 $2, $1 已建成.
+BUILT_ON_NOTIFICATION: 在 $2 上, $1 已建成.
+
+QUEUE_SIZE: 计划还有 $1
+BUILDING_THING: 建造 $1 ($2%)
+BUILDING_NOTHING: 空闲
+
+DESIGN_SIZE: 尺寸 $1
+CREATE_DESIGN: 创造蓝图
+CREATE_DESIGN_CLASS: 创造类型
+IMPORT_DESIGNS: 导入设计
+SEARCH_DESIGNS: 搜索设计……
+DESIGN_CLASS_NAME: 设计的类型名称:
+
+DESIGN_NAME_INPUT: 名称:
+DESIGN_CLASS_INPUT: 类型:
+DESIGN_SIZE_INPUT: 尺寸:
+DESIGN_HULL_INPUT: 船体:
+MINSIZE_SUPPORT: 尺寸 $1+, 辅助舰
+MINSIZE_FLAGSHIP: 尺寸 $1+, 旗舰
+MINSIZE_STATION: 尺寸 $1+, 太空站
+DESIGN_FLAGSHIP: 旗舰
+DESIGN_SUPPORT: 辅助舰
+DESIGN_STATION: 太空站
+DESIGN_SATELLITE: 支援卫星
+
+DESIGN_SHOW_ARCS: 显示武器炮塔的[b]射击范围[/b].
+DESIGN_SHOW_HULL: 显示蓝图下相似的舰船形态
+DESIGN_CENTER: 居中
+DESIGN_RANDOMIZE: 随机生成蓝图
+DESIGN_RANDOMIZE_CONFIGURE: 配置随机生产舰船的参数
+DESIGN_CONFIGURE: 配置随机器
+DESIGN_UNDO: 后撤 ($1)
+DESIGN_REDO: 前进 ($1)
+DESIGN_PAINT_TOOL: <<
+	[b]喷涂工具($1)[/b]
+	[color=#0f0]按住左键, 喷涂选中的子系统.[/color]
+	[color=#f00]按住右键, 删除选中的子系统.[/color]
+	[i]左键拖动可以移动模块、核心和炮塔.[/i]
+
+	[i]按住 Ctrl 并同时单击左键, 将创建一个新的模块, 而非扩展旧模块.[/i]
+
+	[i]按住 Alt 以快速进行点状放置.[/i]
+>>
+DESIGN_MOVE_TOOL: <<
+	[b]移动工具($1)[/b]
+
+	[i]移动当前选中的模块.[/i]
+
+	[i]按住 Shift 键, 以移动整个模块.[/i]
+
+	[i]按住 Ctrl 键, 以复制拖动的模块.[/i]
+>>
+DESIGN_DROP_TOOL: <<
+	[b]吸管工具($1)[/b]
+
+	左键点击子系统模块, 即可选中
+>>
+DESIGN_REPLACE_TOOL: <<
+	[b]替换工具($1)[/b]
+
+	将点击安装好的子系统模块, 将它替换为选中的子系统.
+>>
+DESIGN_CLEAR: 清除设计内容, 可撤销.
+
+DESIGN_RND_WEAPONCOUNT: 武器统计
+DESIGN_RND_ENGINESIZE: 引擎尺寸
+DESIGN_RND_HYPERSIZE: 跃迁设备尺寸
+DESIGN_RND_SUPPLIES: 生成补给品储备.
+DESIGN_RND_SUPPORT: 生成支援舰数量.
+
+GRAPHICS_EDITOR: 图形编辑器
+MODULES: 模块
+
+WEAPONS: 武器
+DEFENSES: 防御
+
+SAVE_GAME_DATA: 存档
+SAVE_GAME_DATA_CONFIRM: 你确定要覆盖存档?
+RESET_GAME_DATA: 重置存档
+RESET_GAME_DATA_CONFIRM: 你确定要重置存档?
+MUTATION_CHANCE: Mutation 几率:
+NAME_COUNT: $1 名称
+
+CONFIRM_OVERWRITE: 你确定要覆盖 '$1'?
+CONFIRM_DELETE_FILES: 你确定要删除选中的所有目录和文件?
+FILENAME_LABEL: 文件名:
+NEW_DIRECTORY: 新目录
+CREATE_DIRECTORY: 创建目录
+DIRECTORY_LABEL: 目录:
+
+PLAY_EMPIRE_TITLE: 选择势力
+SPECTATE: 旁观
+PLAY_EMPIRE: 启用势力
+
+FREE_RESOURCES: 空闲资源
+DISABLED_RESOURCES: 禁用资源
+NO_POP_RESOURCES: 劳工不足
+DECAYING_PLANETS: 衰退行星
+LABOR_PLANETS: 提供劳工的行星/轨道卫星
+COLONIZING_PLANETS: 部分殖民
+INFLUENCE_STACK: 影响力商店
+WONDER_PLANETS: 拥有奇观
+UNDER_SIEGE_PLANETS: 行星正在被围攻
+DEFENSE_TARGETS: 在该地展开防御
+ALL_FLEETS: 军用旗舰
+CIVILIAN_FLEETS: 民用旗舰
+MOTHERSHIPS: 母舰
+DEFENSE_STATIONS: 防务太空站
+COMBAT_FLEETS: 舰队(交战中)
+FLEETS_LOW_SUPPLY: 支援舰数量过低
+AVAIL_ARTIFACTS: 可用文物
+COLONIZE_SAFE_PLANETS: 数量充足的定居者
+AUTO_IMPORTS: 等待自动进口
+TT_AUTO_IMPORTS: 行星尚需等待 [img=$3;20/] [b]$1 份 $2 资源[/b] 才能开始自动进口.
+OVERPRESSURE_PLANETS: 强化行星容量
+
+ASTEROID_UNOWNED: <<
+	选择一颗劳工星球并右键这个小行星, 以构建一座[b][color=#8c4ec9]矿业基地[/color][/b], 从而获得一种资源.
+>>
+ASTEROID_OWNED: <<
+	这颗小行星拥有一个采矿基地.如果矿业失去贸易通道, 这个采矿基地将被摧毁.
+>>
+ASTEROID_MINING: <<
+	这颗小行星通过[color=#91692c][b]采矿船[/b][/color]开采稀缺矿物, 并运输到需要的行星.
+>>
+MOVE_TO_OBJ: 移动到 $1
+
+GO_RESOURCE: $1
+GO_RESOURCE_TYPE: 发现资源
+
+TT_GAMETIME: <<|
+	显示本局游戏用时.
+
+	[i]切换至现实时间.[/i]
+>>
+TT_REALTIME: <<|
+	显示现实时间.
+
+	[i]切换至本局游戏用时.[/i]
+>>
+TT_PAUSE: 游戏暂停或继续
+TT_SLOWER: 降低游戏速度
+TT_FASTER: 提高游戏速度
+PAUSED: 暂停
+WAITING: 等待
+NOTIFICATION_LOG: 事件日志

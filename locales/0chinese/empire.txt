@@ -1,0 +1,289 @@
+PORTRAIT: 头像
+RACE_NAME: 种族名称
+FTL_METHOD: 跃迁方式
+SHIPSET: 舰组
+WEAPON_SKIN: 武器皮肤
+EMPIRE_UNIVERSE: 星系
+
+TT_DIFF: [font=Medium]难度:[/font]
+DIFF_PASSIVE: [img=HappyFace;40][b][color=#0f0]被动[/color][/b]⏎\n[i]不会向玩家控制的帝国宣战. [/i][/img]
+DIFF_EASY: [img=StatusPeace;40][b]简单[/b]\n[i]适于上手的简单对手. [/i][/img]
+DIFF_NORMAL: [img=StatusWar;40][b]普通l[/b]\n[i]适度的挑战. [/i][/img]
+DIFF_HARD: [img=StatusCeaseFire;40][b]困难[/b]\n[i]使出了浑身解数的AI. [/i][/img]
+DIFF_MURDEROUS: [img=AttributeIcons::3;40][b][color=#ff9000]凶残[/color][/b]\n[i]Ai视摧毁玩家的帝国为唯一准则. [/i][/img]
+DIFF_SAVAGE: [img=VoteIcons::3;40][b][color=#f00]残暴[/color][/b]\n[i]滥用[b]作弊[/b]和免费的资源来屠净所有人类玩家. [/i][/img]
+
+CUSTOMIZE_RACE: 自定义种族...
+RACE_OVERVIEW: 概览
+RACE_PROFILE: 个人资料
+TRAITS: 特性
+NO_TRAITS: 没有选择特性...
+CONFLICTS: 冲突:
+
+RACE_POINTS_POS: + $1 点数
+RACE_POINTS_NEG: $1 点数
+RACE_POINTS_NEU: 0 点
+
+RACE_POINTS_AVAIL_POS: $1 可用点
+RACE_POINTS_AVAIL_NEG: 需要 $1 点
+
+TRAIT_CAT_Government: 政府
+TRAIT_CAT_Foundation: 国本
+TRAIT_CAT_FTL: 跃迁
+TRAIT_CAT_Personality: 特性
+TRAIT_CAT_Biology: 种族生理
+TRAIT_CAT_Military: 军事
+TRAIT_CAT_Tendency: 倾向
+
+TRAIT_POOR: 贫困
+TRAIT_POOR_DESC: <<|
+	开始游戏时少获得 §$1基础收入. 
+>>
+
+TRAIT_INDUSTRIOUS: 工业化
+TRAIT_INDUSTRIOUS_DESC: <<|
+	开始时母星拥有额外 $1产能产出. 
+>>
+
+TRAIT_FTLCACHE: 跃迁储蓄
+TRAIT_FTLCACHE_DESC: <<|
+	开始时拥有 $1跃迁能, 但没有跃迁能产出. 
+>>
+
+TRAIT_PLANTATION: 种植园
+TRAIT_PLANTATION_DESC: <<|
+	开始时您的母星拥有额外的谷物资源. 
+>>
+
+TRAIT_CUNNING: 狡兔三窟
+TRAIT_CUNNING_DESC: <<|
+	开始时额外获得 $1张随机权势卡. 
+>>
+
+TRAIT_CRUDE: 工艺粗糙
+TRAIT_CRUDE_DESC: <<|
+	所有舰船建造额外消耗 $1%资金. 
+>>
+
+TRAIT_INEFFICIENT: 效率低下
+TRAIT_INEFFICIENT_DESC: <<|
+	所有武器射击时消耗 $1倍补给. 
+>>
+
+TRAIT_EMPIRE: 政府: 封建帝制
+TRAIT_EMPIRE_DESC: <<|
+	[b][color=#a06911]额外邻近小行星[/color][/b]. 
+	[b][color=#f00]舰队: [/color][/b]拥有支援舰的重型航母. 
+	[b][color=#0087c7]权势卡:[/color][/b]5x讨价还价, 1x命名旗舰, 1x命名星球. 
+>>
+
+TRAIT_COMMUNISM: 政府: 共产主义
+TRAIT_COMMUNISM_DESC: <<|
+	[b][color=#42b4bd]500能量[/color][/b]. 
+	[b][color=#f00]舰队:[/color][/b]2x无畏战舰. 
+	[b][color=#0087c7]权势卡:[/color][/b]1x讨价还价, 1x众恶必察, 1x朝耕暮耘, 1x联合研发中心, 1x锦上添花, 1x暗中作梗. 
+>>
+
+TRAIT_THEOCRACY: 政府: 神权政体
+TRAIT_THEOCRACY_DESC: <<|
+	[b][color=#00c0ff]250跃迁能[/color][/b]. 
+	[b][color=#f00]舰队:[/color][/b]2x侦查舰, 1x无畏战舰, 母星防御. 
+	[b][color=#0087c7]权势卡:[/color][/b]2x声名狼藉, 1x先驱知识, 2x根结盘踞, 1x主持星际议会. 
+>>
+
+TRAIT_CAPITALISM: 政府: 资本主义
+TRAIT_CAPITALISM_DESC: <<|
+	[b][color=#d1cb6a]§400k特别资金[/color][/b]. 
+	[b][color=#f00]舰队:[/color][/b]重型航母. 
+	[b][color=#0087c7]权势卡:[/color][/b]1-4x势不两立, 2x投机取巧, 2x啖之以利. 
+>>
+
+TRAIT_MERITOCRACY: 政府: 精英政治
+TRAIT_MERITOCRACY_DESC: <<|
+	能者拥权. 开始时拥有5x讨价还价(*), 1x百家争鸣, 1x众恶必察, 2x啖之以利, 2x锦上添花. 
+>>
+
+TRAIT_ANARCHY: 政府: 无政府主义
+TRAIT_ANARCHY_DESC: <<|
+	全面缺乏政府组织结构. 开始时没有任何权势卡. 
+>>
+
+TRAIT_HYPERDRIVE: 跃迁引擎
+TRAIT_HYPERDRIVE_DESC: <<|
+	为你的舰船装备可经由多维空间进行长程跃迁的跃迁引擎. 
+>>
+
+TRAIT_FLING: 弹射信标
+TRAIT_FLING_DESC: <<|
+	建立起有能力将舰船以恐怖的速度从自己身边弹射出去的庞大信标. 
+>>
+
+TRAIT_GATE: 星门
+TRAIT_GATE_DESC: <<|
+	星门卫星建立起稳定的虫洞并让舰船可以穿梭于星门之间
+>>
+
+TRAIT_SLIPSTREAM: 滑流
+TRAIT_SLIPSTREAM_DESC: <<|
+	装备专业发生器的舰船撕裂时间与空间以使舰船可以瞬间穿越其间. 
+>>
+
+TRAIT_ANCIENT_VESSEL: 先驱飞船
+TRAIT_ANCIENT_VESSEL_DESC: <<|
+	这艘雄伟的飞船长久以来一直追随着我们的行星. 现在, 我们将收回它. 
+	开始时拥有一艘旧国旗舰. 
+>>
+
+TRAIT_MANIFEST_DESTINY: 昭昭天命
+TRAIT_MANIFEST_DESTINY_DESC: <<|
+	银河系中的千千世界听从我们的统领. 
+	围攻一颗敌人世界时将少花费25%补给. 
+>>
+
+TRAIT_MILITARY_INDUSTRIAL_COMPLEX: 军工企业
+TRAIT_MILITARY_INDUSTRIAL_COMPLEX_DESC: <<|
+	我们早已拥有常备军队, 并将这样持续下去. 开始时拥有价值50产能的
+	免费支援舰. 
+>>
+
+TRAIT_FORTIFIED: 坚城
+TRAIT_FORTIFIED_DESC: <<|
+	开始时您的母星拥有本土帕克资源. 
+>>
+
+TRAIT_PYROMANIA: 纵火癖
+TRAIT_PYROMANIA_DESC: <<|
+	导弹类武器造成25%额外伤害. 您的舰船上的火灾将造成双倍伤害
+>>
+
+TRAIT_VIRILE: 雄厚
+TRAIT_VIRILE_DESC: <<|
+	您的母星人口增长率翻倍. 
+>>
+
+TRAIT_SEDENTARY: 滞缓
+TRAIT_SEDENTARY_DESC: <<|
+	建筑工程减慢30%. 同时适用于民用及帝国基础设施. 
+>>
+
+TRAIT_SUBLIGHT: 亚光速
+TRAIT_SUBLIGHT_DESC: <<|
+	我们还未发现任何可以打破光速壁垒的手段. 没有跃迁装置, 跃迁能量生成, 或跃迁能量储蓄. 
+>>
+
+TRAIT_PIOUS: 倾向: 虔诚
+TRAIT_PIOUS_DESC: <<|
+	能力: 无效化, 抑制进攻, 战争集资, 朝圣. 
+>>
+
+TRAIT_SPACE_PROGRAM: 太空计划
+TRAIT_SPACE_PROGRAM_DESC: <<|
+	数十年来我们探查了周围的环境. 游戏开始时附近的星系已被预先探明. 
+>>
+
+TRAIT_REVOLUTIONARIES: 革命份子
+TRAIT_REVOLUTIONARIES_DESC: <<|
+	夺取我们的帝国之前要先从我们的尸体上踏过! 受到围攻的行星将生成出支援舰群. 
+>>
+
+TRAIT_EMPATHIC: 感同身受
+TRAIT_EMPATHIC_DESC: <<|
+	我们利用感情的能力正如战士运用他们的宝剑. 使用势不两立, 讨价还价卡时效果翻倍. 
+>>
+
+TRAIT_CHARISMATIC: 魅力非凡
+TRAIT_CHARISMATIC_DESC: <<|
+	我们的意志力成为了对抗我们对手的强而有力的盾牌. 由您发起的议案在开始时额外获得3张支持票. 
+>>
+
+TRAIT_SOCIAL_PARANOIA: 社会妄想症
+TRAIT_SOCIAL_PARANOIA_DESC: <<|
+	我们的社会妄想症试图联合其他种族反对我们. 由您发起的议案在开始时少3张支持票. 
+>>
+
+TRAIT_EUPHORIC: 欣快
+TRAIT_EUPHORIC_DESC: <<|
+	我们一同处于无尽的愉悦之中. 所有2级及以上行星处于幸福状态. 
+>>
+
+TRAIT_GENEROUS: 慷慨
+TRAIT_GENEROUS_DESC: <<|
+	我们的慷慨大方是我们事业上最强大的盟友. 与你同盟的帝国将获得你选择的福利所带来的一半好处. 
+>>
+
+TRAIT_RED_TAPE: 繁文缛节
+TRAIT_RED_TAPE_DESC: <<|
+	我们在政治影响力上的闪光点时常埋没在繁文缛节的行政机构的重压之下. 在拥有权势卡的状态下每6分钟后, 你所拥有的权势卡质量减1. 
+>>
+
+TRAIT_WAR_MINDED: 好战之心
+TRAIT_WAR_MINDED_DESC: <<|
+	我们对银河政治毫无兴趣. 支持票及投票类权势卡额外消耗1影响力以使用. 
+>>
+
+TRAIT_PATENT_PENDING: 专利申请
+TRAIT_PATENT_PENDING_DESC: <<|
+	他们将为盗取我们的想法而付出代价. 当你完成一项科研项目时获得针对每一个同样完成了此项科研的帝国的势不两立卡. 
+>>
+
+TRAIT_SEQUESTERED_SOCIETY: 幽静社会
+TRAIT_SEQUESTERED_SOCIETY_DESC: <<|
+	我们至今都过着宁静的生活, 但现在是时候一展宏图了. 开始游戏时您的母星上的地块均已开发完成. 
+>>
+
+TRAIT_DWARF_PLANET: 矮行星
+TRAIT_DWARF_PLANET_DESC: <<|
+	我们的摇篮可能已无法容纳我们, 但天空中将有无尽的世界在等待着我们. 您的母星是一颗小型(8x5)行星. 
+>>
+
+TRAIT_ENORMOUS_PLANET: 巨行星
+TRAIT_ENORMOUS_PLANET_DESC: <<|
+	纵览大千世界, 我们的星球是一个巨人. 您的母星是一颗大型(20x15)行星. . 
+>>
+
+V_WON_TITLE: 伟大的胜利!
+V_WON_TEXT: 你获得了[color=#0f0]胜利! [/color]那些弱小的种族在$2的伟大面前只能选择臣服!
+
+V_LESSER_TITLE: 不彻底的胜利...
+V_LESSER_TEXT: 作为臣属国, 你帮助 $1达到了星际的制高点. 你的种族奋斗过, 昌盛过, 是伟大的幸存者, 但你再也无法完成统治星系的夙愿...
+
+V_LOST_TITLE: 失败!
+V_LOST_TEXT: <<|
+	你[color=#f00]失败[/color]了! 你对星际统治的诉求最终换来的是种族的衰颓, 无助, 和对 $1的屈服. 
+>>
+
+V_SUBJUGATED: $1的臣属
+V_RANKINGS: 排名
+V_SCORES: 得分
+
+STAT_PLANETS: 行星
+STAT_SHIPS: 旗舰
+STAT_STRENGTH: 军事
+STAT_BUDGET: 预算
+STAT_ENERGY: 能量
+STAT_INFLUENCE: 影响力
+STAT_POINTS: 点数
+
+EMP_NAME_0: $1盟国
+EMP_NAME_1: $1的盟国
+EMP_NAME_2: $1联合国
+EMP_NAME_3: 联合的 $1
+EMP_NAME_4: 统一的 $1
+EMP_NAME_5: 坚不可摧的 $1
+EMP_NAME_6: $1共和国
+EMP_NAME_7: $1人民共和国
+EMP_NAME_8: $1帝国
+EMP_NAME_9: $1联邦
+EMP_NAME_10: $1的邦国
+EMP_NAME_11: 联邦制的 $1
+EMP_NAME_12: $1霸权国
+EMP_NAME_13: $1王国
+EMP_NAME_14: $1共同体
+EMP_NAME_15: $1州邦
+EMP_NAME_16: $1直辖区
+EMP_NAME_17: $1对称体
+EMP_NAME_18: 自由的 $1
+EMP_NAME_19: $1蜂巢国
+EMP_NAME_20: 公民的 $1
+EMP_NAME_21: $1自治区
+EMP_NAME_22: 联邦 $1

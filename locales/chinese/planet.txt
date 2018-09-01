@@ -1,0 +1,402 @@
+CONSTRUCTION: 施工
+UNCOLONIZED: 未殖民
+SHIPS: 舰船
+ORBITALS: 轨道卫星
+POPULATION: 人口
+MAX_POPULATION: 最大人口
+COLONIZE_GENERIC: 殖民
+COLONIZE_WITH: 从 $1 处启动殖民(预计完成时间$2分钟)
+COLONIZE_WITH_BASIC: 从 $1 处启动殖民
+AUTO_COLONIZE: 殖民到这里
+AUTO_COLONIZE_BLOCKED: 殖民到这里(当前被封锁)
+AUTO_COLONIZE_LEVEL: 殖民至此行星并进行自动进口, 将其升至 $1 级
+AUTO_COLONIZE_SYSTEM: 殖民 $1 中的行星
+AUTO_COLONIZE_SYSTEM_LEVEL: 殖民至 $1 中的行星并自动进口
+STOP_COLONIZE_SYSTEM: 停止对 $1 中的行星进行殖民计划
+CANCEL_AUTO_COLONIZE: 停止殖民
+COLONIZE_CONTINUE: 继续殖民
+COLONIZE_CANCEL: 停止对 $1 的殖民
+COLONIZE_UNSAFE_PROMPT: <<|
+	在此行星启动对外殖民计划, 将会使其常驻人口降至必须水平线以下.
+
+	即便如此, 仍要进行殖民计划?
+>>
+ONLY_PLANETS: 只能以行星为目标.
+LEVEL: 等级
+MANAGE: 管理
+EXPORT_RESOURCE: 将 $1 出口到 $2
+EXPORT_RESOURCES: 将资源出口到 $1
+QUEUE_EXPORT_RESOURCE: "将 $1 出口到 $2" 加入队列
+STOP_EXPORT_RESOURCE: 中止将 $1 出口到 $2
+EXPORT_RESOURCE_PROMPT: 出口 $1
+EXPORT_RESOURCES_PROMPT: 出口资源
+STOP_EXPORT_RES_QUEUE: 取消队列中的 "将 $1 出口到 $2"
+IMPORT_RESOURCE: 从 $2 进口 $1
+QUEUE_IMPORT_RESOURCE: 将从$2进口 $1排入队列
+QUEUE_IMPORT_RESOURCE: "从 $2 进口 $1" 加入队列
+STOP_IMPORT_RESOURCE: 中止从 $2 进口 $1
+STOP_IMPORT_RES_QUEUE: 取消队列中 "从 $2 进口 $1" 的任务
+RESOURCE_POP_REQUIRED: 需要至少 [b]$1 B (十亿)[/b] 人口才能生产.
+RESOURCE_LEVEL_REQUIRED: 需要至少 $1 级行星才能生产.
+RESOURCE_TIER_DESC: [b]$1 层级[/b] [img=$2;18/]的资源: 需要等级 $1 的星球才能生产.
+RESOURCE_EXPORTED_TO: 出口至 $1...
+RESOURCE_IMPORTED_FROM: 从 $1 进口...
+ONLY_WITH_RESOURCES: 只能以行星或小行星为目标.
+INCOME: 收入
+REQ_FOR_LEVEL: 升至 $1 级需要:
+POP_REQ: [img=ResourceIcon::8;20/] [color=#ff9000][b]$1[/b]+ 人口[/color]
+REQ_STOP_DECAY: 资源短缺! 行星级别从 $2 衰退至 $1, 除非再次满足:
+REQ_TYPE: [font=Subtitle]任意 [b]$1[/b] [img=$2;26/]资源[/font]
+REQ_TYPE_UNIQUE: 任意特定类型的 $1:
+REQ_LEVEL: [font=Subtitle]任意 [b]$1 层级[/b] [img=$2;26/]资源[/font]
+REQ_LEVEL_UNIQUE: 任意特定类型的 $1 级资源:
+WAIT_CONSTRUCT: 在问题解决前, 无法动工.
+CONSTRUCTION_REQUIRES_LEVEL: 建造需要行星等级至少为 $1.
+ABANDON: 放弃行星
+ABANDON_ACCEPT: 放弃
+PROMPT_ABANDON: 放弃 $1? 脱离整个势力的供应链, 其间生存的人们都将死亡.
+BUILDING_CONSTRUCTING_PCT: 建造进度: $1%
+BUILDING_DISABLED_POP: 建筑物已停止运作.
+BUILDINGS: 建筑
+PROJECTS: 项目
+AVAILABLE_RESOURCES: 资源:
+REQUIRED_RESOURCES: 需要 $1 级
+RESOURCE_CLASS_Food: 食物
+RESOURCE_CLASS_WaterType: 水
+RENAME_NOTIF: 已重命名: $1
+RENAME_EVT: $1 已重命名 $2 为 [b]$3[/b].
+DEFENSE_ON_OPTION: $1 开始生产防御舰
+DEFENSE_OFF_OPTION: $1 停止生产防御舰
+TT_IS_DEFENDING: 标记为使用防御. 势力提供的防御资源 将用于在这里生产防御船.\n\n 防御舰均匀地分布在标记位置附近.
+TERRAFORM: 星球改造
+TERRAFORM_OPTION: 星球改造...
+TERRAFORM_ITEM: $1 ($2, $3 生产力)
+BUILD_TERRAFORM: 改造 $1 的 $2 的地形
+BUILD_DRY_DOCK: 干船坞: $1
+EXPORT_LABOR: 出口产能到 $1
+WORK_DRY_DOCK: 为干船坞工作
+TT_DRY_DOCK: <<
+	[b]建造一座干船坞[/b]
+
+	在地球周围建造一个干船坞, 以建造一艘特定的船. 在干船坞中可以借贷生产船舶, 在之后的多个预算周期中慢慢偿付.
+
+	通过在银河系视图中, 双击可以将更多钱放入干船坞. 星球的产能也可以为干船坞服务, 选择行星, 右键干船坞并选择 "为干船坞工作".
+
+	在干船坞建造一艘船, 需额外支付 25% 的成本.
+>>
+TT_REPEAT_QUEUE: <<
+	[b]是否重复生产[/b]
+
+	可设置当前队列为无限重复.
+>>
+FINANCE_OPTION: 资助...
+FINANCE_DRY_DOCK: 资助干船坞: $1
+FINANCE: 资助
+RENAME_OPTION: 重命名... (1 影响力)
+AUTO_IMPORT_LEVEL: 自动进口至 $1 级
+AUTO_IMPORT_OPTION: 自动进口 $1 资源
+AUTO_IMPORT_TWO_OPTION: 自动进口 $1, $2 资源
+CANCEL_AUTO_IMPORT: 取消自动进口
+QUEUED_AUTO_IMPORT: 自动进口排入队列...
+DESTROY_BUILDING: 摧毁 $1
+CANCEL_BUILDING: 取消 $1
+STORED_LABOR: 产能储量: $1 / $2
+TILE_BIOME_DEVELOPED: $1 (已开发)
+TILE_BIOME_UNDEVELOPED: $1 (未开发)
+TILE_BIOME_GROWN: $1 (成熟)
+TILE_BIOME_UNGROWN: $1 (未成熟)
+BUILD_TIME: 建造时间
+CANCEL_CONSTRUCTION: 取消建筑
+OPT_CANCEL_IMPORT: 中止从 $2 进口 $1
+OPT_CANCEL_EXPORT: 中止出口 $1
+OPT_MAKE_IMPORT: 从 $2 进口 $1
+OPT_IMPORT_AUTO: 自动进口这类资源
+OPT_IMPORT_AUTO_CANCEL: 取消队列中 "自动进口这类资源"
+OPT_IMPORT_AUTO_CANCEL_ALL: 取消全部队列中 "自动进口至该行星"
+
+EXPBLOCK_USE: [color=#f33][b]无法使用资源:[/b][/color]\n $1
+EXPBLOCK_EXPORT: [color=#f33][b]无法出口资源:[/b][/color]\n $1
+EXPBLOCK_IMPORT: [color=#f33][b]无法进口资源:[/b][/color]\n $1
+EXPBLOCK_DISABLED: 星球出口线路被阻断.
+EXPBLOCK_DEEPSPACE: 只能在星系内交易.
+EXPBLOCK_UNOWNED: 只能在帝国范围内交易.
+EXPBLOCK_UNMINED: 必须是开采中的小行星.
+EXPBLOCK_UNCOLONIZED: 必须是殖民星.
+EXPBLOCK_LOWLEVEL: 需要: 星球至少 $1 级.
+EXPBLOCK_POP: 星球需要 $1B (十亿) 人口才能出口资源.
+EXPBLOCK_DISCONNECTED: 只能通过互相连接的星系交易.
+EXPBLOCK_UNUSABLE: 特殊情况阻碍了出口.
+
+HINT_USE_PLANETS_TITLE: 空闲行星
+HINT_USE_PLANETS: <<|
+	0 级行星需要资金来维护.
+
+	从你的低级行星出口资源来帮助它晋升级别,
+	如果它未被使用, 也可以放弃它来减少支出.
+>>
+
+HINT_COLONIZE_TITLE: 殖民减缓
+HINT_COLONIZE: <<|
+	殖民需要消耗人口和资金. 处于负债状态时, 殖民速度大大下降.
+
+	先集中殖民少数的星球, 等这些星球发展成熟后再扩大殖民规模.
+	你也可以通过取消一些殖民指令来加速未取消的殖民指令.
+>>
+
+TT_MANAGE_PLANET: <<|
+	[b]星球管理[/b]
+
+	查看星球详细信息: 地表, 资源, 建筑.
+>>
+
+TT_MANAGE_PLANET_SUPPORTS: <<|
+	[b]支援舰管理[/b]
+
+	管理分配到行星上的支援舰群.
+>>
+
+COLONIZE: 殖民
+TT_COLONIZE: <<|
+	[b]殖民[/b]
+
+	从该行星派遣十亿人口, 去某个未占领行星进行殖民.
+>>
+TT_COLONIZE_THIS: <<|
+	[b]殖民到这里[/b]
+
+	从你的某个行星派遣十亿人口到此殖民.
+>>
+
+DEFENSE_TARGET: 建造防御设施
+TT_DEFENSE_TARGET: <<|
+	[b]为 ... 修建防御[/b]
+
+	该命令不会在此行星周围产出防御舰队, 产出的舰队
+	会出现在你控制的选定星系.
+>>
+
+PLANET_POPULATION_TIP: <<|
+	[b]人口[/b]
+
+	该星球上所居住的总人口, 单位为十亿 (B). 人口越多, 星球基础的收入越高, 潜力上限越大.
+>>
+
+PLANET_INCOME_TIP: <<
+	[b]收入[/b]
+
+	[i]由星球产生的, 每个预算周期内的收入或亏损.[/i]
+
+	[b]进口潜力:[/b] [offset=220]$1[/offset]
+	[b]激活潜力:[/b] [offset=220]$2[/offset]
+>>
+
+PLANET_INFLUENCE_TIP: <<
+	[b]影响力[/b]
+
+	这颗星球上的每份影响力股份, 都增加了你相对于其他势力, 所获得的影响力数量.
+	影响力可以用来与他国进行外交活动.
+
+	[b]进口潜力:[/b] [offset=220]$1[/offset]
+	[b]激活潜力:[/b] [offset=220]$2[/offset]
+>>
+
+PLANET_ENERGY_TIP: <<
+	[b]能量[/b]
+
+	能量可以激活你的文物, 使其变成神器.
+
+	[b]进口潜力:[/b] [offset=220]$1[/offset]
+	[b]激活潜力:[/b] [offset=220]$2[/offset]
+>>
+
+PLANET_DEFENSE_TIP: <<
+	[b]防御[/b]
+
+	定期在该星球周围产出免费的防御支援舰, 若
+	设置了该星球为其他星系构建防御, 则支援舰在目标星系产出.
+
+	[b]进口潜力:[/b] [offset=220]$1[/offset]
+	[b]激活潜力:[/b] [offset=220]$2[/offset]
+>>
+
+PLANET_LOYALTY_TIP: <<|
+	[b]忠诚度[/b]
+
+	本地居民对中央政府的忠心.
+
+	围攻会降低忠诚度, 0 忠诚度的星球会被占领.
+
+	星球忠诚度越高, 则吞并其所需影响力也越高.
+>>
+
+PLANET_PRESSURE_TIP: <<
+	[b]潜力上限[/b]
+
+	[i]大多数资源都为使用它们的行星提供[b]潜力[/b].[/i]
+
+	[i]本地居民和社会各界将会使用[b]潜力[/b], 来建造相应的, 符合当前发展状况的建筑物.[/i]
+
+	[i][b]潜力上限[/b]限制了此地能建造的建筑物的数量. 倘若潜力的使用超出限制, 人们将会建造一些低级建筑, 进而导致产能的损失.[/i]
+
+	[i]一个基本道理是: 星球上的[b]人口[/b]越多, 它便拥有更高的[b]潜力上限[/b].[/i]
+
+	[b]进口潜力:[/b] [offset=220]$1[/offset]
+	[b]激活潜力:[/b] [offset=220]$2[/offset]
+	[b]潜力上限:[/b] [offset=220]$3[/offset]
+>>
+
+PLANET_LABOR_TIP: <<
+	[b]产能[/b]
+
+	[i]产能影响星球的建造速率.[/i]
+
+	[b]进口潜力:[/b] [offset=220]$1[/offset]
+	[b]激活潜力:[/b] [offset=220]$2[/offset]
+>>
+
+PLANET_RESEARCH_TIP: <<
+	[b]科研[/b]
+
+	生成科研点.
+	科研点可以用来解锁科技树节点.
+
+	[b]进口潜力:[/b] [offset=220]$1[/offset]
+	[b]激活潜力:[/b] [offset=220]$2[/offset]
+>>
+
+PLANET_REQUIREMENTS_TIP: <<|
+	[b]等级要求[/b]
+
+	为此星球进口这些类型的资源会使其升级.
+>>
+
+STATUS_HAPPY: 幸福
+STATUS_HAPPY_DESC: <<|
+	这个星球产出的所有资源产量 +1.
+>>
+
+STATUS_VIRILE: 繁衍
+STATUS_VIRILE_DESC: <<|
+	人口生育率翻倍.
+>>
+
+COND_NATIVE_FISH: 本土鱼
+COND_NATIVE_FISH_DESC: <<
+	口味好, 坏的快的水生生物. 无法出口.
+>>
+NATIVE_FISH: 本土鱼
+NATIVE_FISH_DESC: <<
+	被消费的临时资源耐用性提升 30%.
+
+	[color=#ff7070][b]无法出口. [/b][/color]
+>>
+
+COND_EXTRA_MONEY: 贵金属矿
+COND_EXTRA_MONEY_DESC: <<|
+	这类矿藏为本地发展提供 [b]1 点[img=ResourceIcon::0;20/][color=#d1cb6aff]资金[/color]潜力[/b].
+>>
+
+COND_EXTRA_RESEARCH: 异域大气
+COND_EXTRA_RESEARCH_DESC: <<|
+	这有趣的大气层提供 [b]1 点[img=ResourceIcon::4;20/][color=#8c4ec9]科研[/color]潜力[/b].
+>>
+
+COND_EXTRA_INFLUENCE: 热带天堂岛
+COND_EXTRA_INFLUENCE_DESC: <<|
+	著名的岛屿为本地提供 [b]1 点[img=ResourceIcon::1;20/][color=#0087c7]影响力[/color]潜力[/b].
+>>
+
+COND_EXTRA_LABOR: 低重力
+COND_EXTRA_LABOR_DESC: <<|
+	为生产提供优越的环境, 提供 [b]1 点[img=ResourceIcon::6;20/][color=#b1b4b6]产能[/color]潜力[/b].
+>>
+
+COND_EXTRA_DEFENSE: 挥发性矿藏
+COND_EXTRA_DEFENSE_DESC: <<|
+	这个资源提供 [b]1 点[img=ResourceIcon::5;20/] [color=#af7926]防御[/color]潜力[/b].
+>>
+
+COND_EXTRA_ENERGY: 地热喷发井
+COND_EXTRA_ENERGY_DESC: <<|
+	这种资源提供 [b]1 点[img=ResourceIcon::2;20/][color=#42b4bd]能量[/color]潜力[/b].
+>>
+
+COND_ANCIENT_CANNON: 远古行星防御
+COND_ANCIENT_CANNON_DESC: <<|
+	星表上有一座古老的行星炮, 虽然已经废弃了, 但修修还可以继续用.
+>>
+
+BLD_ANCIENT_CANNON: 远古行星防御
+BLD_ANCIENT_CANNON_DESC: <<|
+	星表上有一座在工作状态的远古行星炮.
+
+	当敌军围攻这颗行星, 并且星系内的防御单位都被摧毁, 为了自保, 防御炮会停止动作.
+>>
+
+COND_ANCIENT_RUINS: 远古遗迹
+COND_ANCIENT_RUINS_DESC: <<|
+	首次被殖民时, 免费获得一定数量的科研点.
+>>
+
+BLD_ANCIENT_RUINS: 远古遗迹
+BLD_ANCIENT_RUINS_DESC: <<|
+	很久以前的某个先进种族在这里留下了一个军事哨站遗迹.
+>>
+
+COND_HIGH_YIELD: 高资源产出
+COND_HIGH_YIELD_DESC: <<|
+	资源提供双倍潜力, 但潜力上限减 3.
+>>
+
+COND_NOXIOUS_ATMOSPHERE: 有毒大气
+COND_NOXIOUS_ATMOSPHERE_DESC: <<|
+	人口容量降低(-1)。
+>>
+
+COND_SPARSE: 资源稀缺
+COND_SPARSE_DESC: <<|
+	资源仅提供一半的潜力, 星球升级时对资源的等级要求也 -1[img=ResourceClassIcons::0;18/].
+>>
+
+COND_BARREN: 不毛之地
+COND_BARREN_DESC: <<|
+	天空缺少大气，地底没有资源，地表更是覆盖了坚硬的岩石。
+>>
+
+COND_MOON: 卫星
+COND_MOON_DESC: <<
+	行星外围有一颗足够大的卫星, 可以在其上构建一个卫星基地.
+
+	这预示着更多的卫星与潜在的月球基地.
+>>
+
+COND_EXTRA_PRESSURE: 出云山脉
+COND_EXTRA_PRESSURE_DESC: <<
+	该山脉为本地的主要资源提供 [b]1 点潜力[/b].
+>>
+
+COND_DOUBLE_REQUIREMENT: 广袤沙海
+COND_DOUBLE_REQUIREMENT_DESC: <<
+	这颗星球需要双倍资源, 才能 [b][img=ResourceClassIcons::0;20/] 满足 1 级要求[/b].
+>>
+
+COND_GROWTH: 巨兽
+COND_GROWTH_DESC: <<
+	该资源加快了人口自然增长与地块开发. (+25%)
+>>
+
+COND_NEG_PRESSURE: 寒冰荒地
+COND_NEG_PRESSURE_DESC: <<
+	相比正常星球, 这颗星球的资源潜力要低 2 点
+>>
+
+BIOME_CRYSTALLIC: 结晶
+BIOME_DESERT: 沙漠
+BIOME_FOREST: 森林
+BIOME_ICE: 冰原
+BIOME_MOUNTAINS: 山脉
+BIOME_OCEANIC: 海洋
+BIOME_VOLCANIC: 火山
+BIOME_MOON: 卫星
+BIOME_SPACE: 真空
+BIOME_ARTIFICIAL: 人工

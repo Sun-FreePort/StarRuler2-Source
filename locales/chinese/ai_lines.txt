@@ -1,0 +1,30 @@
+AI_STANDING_POSITIVE: 他们倾向于保持和平与简单的互助。
+AI_STANDING_VERY_POSITIVE: 他们将我们视为有价值的朋友与盟友。
+
+AI_STANDING_NEGATIVE: 他们蔑视我们，并不愿与我们合作。
+AI_STANDING_VERY_NEGATIVE: 他们视我们为死敌、对手！
+
+AI_STANDING_NEUTRAL: 他们对我们并没有敌意，但也不亲近。
+AI_STANDING_TRUE_NEUTRAL: 他们恪守中立原则，不偏不倚。
+
+AI_STANDING_OFFENSE_WAR: 宣战终止了我们与他们的一切关系。
+AI_STANDING_OFFENSE_INFLUENCE: 针对他们的外交行动，破坏了咱们与他们的关系。
+AI_STANDING_OFFENSE_PLANET: 占领他们的领土摧毁了与他们的关系
+AI_STANDING_GLAD_DONATION: 真是一大笔援助，他们因此感激我们。
+
+AI_STANDING_WAR: 我们正在进行的战争影响到了他们，关系有些紧张了。
+AI_STANDING_WAR_FEAR: 他们对我国的力量感到惊恐，这降低了他们反对战争的底气。
+AI_STANDING_ALLIES: 我们持久的联盟像是一剂强心针，友谊长青！
+AI_STANDING_ALLIES_WEAK: 与他们的联盟摇摇欲坠，这对双方的外交关系都是一种考验。
+
+AI_STANDING_BORDER: 有朝一日，我们开放的边境线会引来肮脏的鬣狗。
+AI_STANDING_EXPANDING: 他们正在寻找扩张的可能，小心我们的边境线。
+AI_STANDING_BORDER_WAR: 有情报显示，他们准备好了，我们的军队在哪？
+
+AI_STANDING_IGNORE: 除非激怒他们，否则他们就这样一直轻视我们。
+AI_STANDING_WAAGH: 这群疯子毫无征兆的进入了咱们境内！
+AI_STANDING_WAIT: 短时间内，他们不太想与我们切磋外交协议。
+AI_STANDING_GIVE_UP: 他们很弱小，国内的反战情绪也很严重，这对我们有利，啧。
+
+AI_STANDING_CHEATS: 他们准备欺负人了。
+AI_STANDING_EASY: 他们倾向于有利的关系。

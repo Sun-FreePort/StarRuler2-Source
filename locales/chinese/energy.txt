@@ -1,0 +1,118 @@
+ABL_FLEET_EFFICIENCY: 加强舰队
+ABL_FLEET_EFFICIENCY_DESC: <<|
+	永久提升舰队实力(+30%)。
+>>
+
+STATUS_OVERCHARGED: 已超载
+STATUS_OVERCHARGED_DESC: <<|
+	舰队实力已提升(+30%)。
+>>
+
+STATUS_PLANET_GROWTH: 积极氛围
+STATUS_PLANET_GROWTH_DESC: <<|
+	将居民生育率、发展速度提高一倍
+>>
+
+ABL_FLEET_SUPPORT: 舰队扩招
+ABL_FLEET_SUPPORT_DESC: <<|
+	提升舰队的支援舰容量(+300)
+>>
+
+STATUS_EXPANDED: 已扩充
+STATUS_EXPANDED_DESC: <<|
+	舰队的支援舰上限已提升(+300)
+>>
+
+STATUS_DEFENDED: 设防
+STATUS_DEFENDED_DESC: <<|
+	拥有短射程的加特林加农炮用于防御, installed through energy.
+>>
+
+STATUS_PRESS_ATTACK: 强制输出
+STATUS_PRESS_ATTACK_DESC: <<|
+	提升双倍的基础实力，并且舰队每秒回复 50HP
+>>
+
+ABL_FLOAT_BUDGET: 战争献金
+ABL_FLOAT_BUDGET_DESC: <<|
+	花费当前所有预算，并获得下一周期的预算作为额外红利。
+
+	距离预算周期开始时间点越近，或者您持有的能源电池越多，都会增加额外
+	资金的数量。
+>>
+
+STATUS_ENTANGLED: 失控干扰
+STATUS_ENTANGLED_DESC: <<|
+	旗舰不能移动或者使用 FTL。
+>>
+
+OT_Ship: 舰船
+OT_Planet: 行星
+OT_Orbital: 轨道卫星
+OT_Star: 恒星
+OT_Artifact: 文物
+OT_Anomaly: 异常
+OT_Asteroid: 小行星
+
+NTRG_NOT_SPACE: 无法以太空为目标。
+NTRG_SPACE: 目标必须是无主的。
+NTRG_NOT_SELF: 无法以自身为目标。
+NTRG_TRADE_PRESENCE: 需要存在贸易活动。
+NTRG_NOT_WAR: 不能以敌人为目标。
+NTRG_TYPE: 目标必须是 $1。
+NTRG_ORBITAL_CORE: 目标必须是 $1。
+NTRG_FLAGSHIP: 目标必须是旗舰。
+NTRG_STATION: 目标必须是太空站。
+NTRG_VISION: 需要视野。
+NTRG_OWNED: 需以自身为目标。
+NTRG_ALLIED: 需以自身或盟军为目标。
+NTRG_NOT_ALLIED: 不能以盟军为目标。
+NTRG_UNNAMED: 无法作用于已命名的目标。
+NTRG_STATUS: 已拥有此状态。
+NTRG_FTL: 不能以跃迁状态的舰船为目标。
+NTRG_TERRITORY: 目标必须在同一领土。
+NTRG_SAME_REGION: 目标必须在同一星系。
+NTRG_PLLEV: 目标等级须为 $1 或更低。
+NTRG_PLLEVA: 目标等级须为 $1 或更高。
+NTRG_PLLEVE: 目标等级须为 $1。
+NTRG_RSLEV: 目标等级须为 $1 或更低.
+NTRG_RSLEVA: 目标等级须为 $1 或更高.
+NTRG_RSLEVE: 目标等级须为 $1.
+NTRG_REGION: 目标必须是区域。
+NTRG_TERRAFORM: 必须能够进行改造活动。
+NTRG_NOT_NATURAL: 不能以天然文物为目标。
+NTRG_NATURAL: 请以天然文物为目标。
+NTRG_OWN_SYSTEM: 我们必须拥有全部行星。
+NTRG_CONTACT: 请与其他帝国接壤。
+NTRG_IN_SYSTEM: 请放置于星系内。
+NTRG_NOT_SYSTEM: 请放置于星系外。
+NTRG_IN_UNIVERSE: 请放置在宇宙边缘。
+NTRG_NEED_WAR: 请以敌军为目标。
+NTRG_CONSTRUCTION: 必须有空闲劳工可用。
+NTRG_UNIQUE: 不能以特殊资源为目标。
+NTRG_ARTIFICIAL: 不能以文物为目标。
+NTRG_NO_COLONIZE: 行星被旧帝国残部封锁了。
+NTRG_CARGO: 目标必须是货物存储物体。
+NTRG_NO_HOME: 不能以首都星系为目标。
+NTRG_REQUIRE: 需要 $1。
+NTRG_CANNOT: 不能以 $1 为目标。
+NTRG_STORAGE_FULL: $1 存储空间溢满。
+NTRG_LOYALTY_MAX: 忠诚度极高。
+NTRG_MIN_MAXPOP: $1 所需的最大人口数。
+
+ABL_ENSLAVE: 奴隶制
+ABL_ENSLAVE_DESC: <<|
+	生成临时的奴隶劳工。
+	每颗星球只能使用一次。
+>>
+
+STATUS_ENSLAVED: 已奴役
+
+STATUS_SEEDSHIP: 文物种舰
+STATUS_SEEDSHIP_DESC: <<|
+	这艘古老的舰船旅行在星系间，制造神器级别的文物，并将它们留给有缘的
+	年轻种族。
+>>
+
+ENERGY_COST: 能量成本
+COOLDOWN: 冷却时间
