@@ -255,13 +255,13 @@ TT_SHIP_GROUP: <<
 
 TT_EXPLORE: <<|
 	[b]Auto-Explore[/b]
-	
+
 	Automatically explores systems.
 >>
 
 TT_EXPLORE_FTL: <<|
 	[b]Auto-Explore with FTL[/b]
-	
+
 	Automatically explores systems.
 	Uses up to half the empire's FTL stores to explore quickly.
 >>
@@ -275,7 +275,7 @@ STATUS_PIRATESHIP_DESC: <<
 
 SUPPORT_BEH: Behavior
 BEH_Brawler: Brawler
-BEH_Brawler_DESC: Opportunistically attacks supports, will raid enemy fleets if equipped with ammo stores.
+BEH_Brawler_DESC: Opportunistically attacks supports, will raid enemy fleets if equipped with 军备货柜 (船体).
 BEH_Shield: Shield
 BEH_Shield_DESC: Protects the flagship and supports from enemy fleets.
 BEH_Cavalry: Cavalry
@@ -289,7 +289,7 @@ BEH_Cannon_DESC: Destroys support ships in the way of valuable enemy targets.
 BEH_Support: Fleet Support
 BEH_Support_DESC: Hide behind friendly fleet without attempting to engage targets.
 BEH_Bomber: Bomber
-BEH_Bomber_DESC: Focuses on enemy flagships, will raid if equipped with ammo stores.
+BEH_Bomber_DESC: Focuses on enemy flagships, will raid if equipped with 军备货柜 (船体).
 
 SUPPORT_RANGE: Engagement Range
 RANGE_Auto: Auto

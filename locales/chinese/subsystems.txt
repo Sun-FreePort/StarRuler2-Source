@@ -289,9 +289,9 @@ GRAVITYENGINE_DESC: <<
 	[img=Minus]Has high power needs.[/img]
 >>
 
-S_RAMJET: Bussard Ramjet
+S_RAMJET: 星际冲压发动机
 S_RAMJET_DESC: <<
-	Collects stray particles from the vacuum while moving by means of an enormous magnetic field leading into a scoop at the front of the ship, then uses those particles to generate thrust.
+	又称 "巴萨德冲压发动机", Collects stray particles from the vacuum while moving by means of an enormous magnetic field leading into a scoop at the front of the ship, then uses those particles to generate thrust.
 
 	[img=Plus]Greatly reduces the maintenance cost of the ship.[/img]
 	[img=Plus]Restores the ship's [b]Supply[/b] when at high velocity. The full indicated Supply Gain rate is reached at speeds of 100 u/s or more.[/img]
@@ -669,18 +669,18 @@ S_SHIELD_HARMONIZER_DESC: <<
 	[img=Plus]Increases the flagship's shield capacity.[/img]
 >>
 
-S_FLARE_BOMB: Flare Bomb
+S_FLARE_BOMB: 耀斑炸弹
 S_FLARE_BOMB_DESC: <<
 	Trigger a star to emit a critical flare, wiping out all population in the solar system but leaving everything else intact.
 
-	The flare bomb is destroyed in the process.
+	The 耀斑炸弹 is destroyed in the process.
 >>
 
-ABL_FLARE_BOMB: Bore Flare Bomb
+ABL_FLARE_BOMB: Bore 耀斑炸弹
 ABL_FLARE_BOMB_DESC: <<
 	After a 60 second channel period, trigger the star to emit a critical flare, wiping out all population in the solar system but leaving everything else intact. The planets in the system are irradiated for the next 5 minutes and cannot be colonized.
 
-	The flare bomb ship is destroyed in the process.
+	The 耀斑炸弹 ship is destroyed in the process.
 >>
 
 STATUS_FLARE_RADIATION: Flare Radiation
@@ -696,39 +696,39 @@ S_ANCIENT_CORE_DESC: <<
 	[img=AncientIcon;22][b][color=#8953f7]Only available when the 'Ancient' race option is chosen.[/color][/b][/img]
 >>
 
-S_WARHEAD: Warhead
+S_WARHEAD: 核储备
 S_WARHEAD_DESC: <<
-	A heavily armed warhead that detonates in the enemy fleet, creating a blast of ultrahard radiation to bombard all the enemy ships in the area.
+	一颗满载的核弹头, 制造一道超强的辐射冲击波, 以辐射轰炸的方式造成大规模巨量伤害.
 
-	[img=Plus]Deals damage to every hex on affected ships.[/img]
-	[img=Minus]Limited storage of warheads.[/img]
-	[img=Minus]Warheads are expensive and must be constructed manually from a planet with labor.[/img]
-	[img=MenuIcons::3;20][i][color=#aaa]Warhead storage can be expanded by adding extra Warhead Tube modifiers to the subsystem.[/color][/i][/img]
+	[img=Plus]辐射范围内的每艘船的每块部件, 都受到了影响.[/img]
+	[img=Minus]核弹头储量有限.[/img]
+	[img=Minus]核弹头价格高昂, 并且只能在行星上使用生产力建造.[/img]
+	[img=MenuIcons::3;20][i][color=#aaa]可以通过增加额外的 "核弹头管道" 子系统, 来增加核弹头储量.[/color][/i][/img]
 >>
-STATUS_WARHEAD: Warheads
+STATUS_WARHEAD: 核储备 (已装载)
 STATUS_WARHEAD_DESC: <<
-	This ship currently has warheads in storage to fire.
+	这艘舰船当前有核弹头储备, 以供迅速开火.
 >>
 CONS_WARHEAD: Construct Warhead
 CONS_WARHEAD_DESC: <<
 	Construct a new warhead to replace one that was fired from a ship with warheads.
 >>
-S_WARHEAD_TUBE: Warhead Tube
+S_WARHEAD_TUBE: 核弹头管道
 S_WARHEAD_TUBE_DESC: <<
 	Additional storage for a warhead. The ship will start with an extra warhead in storage, and can hold one more.
 
 	Must be placed inside the existing Warhead subsystem.
 >>
 
-S_TROOPPODS: Troop Pods
+S_TROOPPODS: 空降舱
 S_TROOPPODS_DESC: <<
-	An array of troop drop pods that can be launched at an enemy planet in order to take it over without having to station a flagship in orbit.
+	 当近地轨道没有旗舰长期驻扎时, 我们可以通过投放一组军队空降舱, 来接管敌军行星.
 
-	[img=Plus]Can take over a planet without keeping a fleet in orbit or costing any supply.[/img]
-	[img=Minus]Only planets up to a certain amount of loyalty can be taken over, depending on the size of the ship and the amount of troop pods installed.[/img]
-	[img=Minus]Troops must be trained manually from a planet with labor, only one batch of troops can be taken at a time, enough to conquer a single planet.[/img]
-	[img=Minus]Significant amounts of [b][color=#00ff80]Control[/color][/b] are required to support the troops.[/img]
-	[img=Minus]Enemy can prevent the siege from progressing by stationing a fleet in orbit.[/img]
+	[img=Plus]无需消耗物资或者派驻长期旗舰, 就能控制一颗非我方行星.[/img]
+	[img=Minus]仅当星球忠诚度下降到一定程度, 我们才有能力接管这颗星球, 这个忠诚目标值取决于舰船大小, 空降舱组件的尺寸, 以及携带的军队数量.[/img]
+	[img=Minus]军人必须消耗劳动力来完成入伍训练, 每颗星球都会消耗掉携带的全部军队.[/img]
+	[img=Minus]为了支持空降舱的运作, 需要消耗舰船大量的 [b][color=#00ff80]运算能力[/color][/b].[/img]
+	[img=Minus]当敌人重新接管这颗行星的近地轨道, 我们将失去已经进入星球的空降部队.[/img]
 >>
 STATUS_TROOPS: Carrying Troops
 STATUS_TROOPS_DESC: <<
@@ -748,7 +748,7 @@ ABL_TROOPPODS_DESC: <<
 	Launch the troops occupying the troop pods on the flagship to invade the targeted enemy planet.
 >>
 
-S_CARRIER_HULL: Carrier Hull
+S_CARRIER_HULL: 航空母舰 (船体)
 S_CARRIER_HULL_DESC: <<
 	A hull specifically designed to control and maintain a large fleet of support ships.
 
@@ -758,9 +758,9 @@ S_CARRIER_HULL_DESC: <<
 	[img=Minus]Less internal space available.[/img]
 	[img=MenuIcons::3;20][i][color=#aaa]Carrier Hulls can only be used on ships of size 300 or greater.[/color][/i][/img]
 >>
-ERROR_CANNOT_HAVE_WEAPONS: $1 cannot have weapons.
+ERROR_CANNOT_HAVE_WEAPONS: $1 不能拥有武器.
 
-S_DESTROYER_HULL: Destroyer Hull
+S_DESTROYER_HULL: 驱逐舰 (船体)
 S_DESTROYER_HULL_DESC: <<
 	A hull optimized to fit many different weapon turrets at the cost of being unable to field a support fleet.
 
@@ -770,11 +770,11 @@ S_DESTROYER_HULL_DESC: <<
 	[img=Plus]More internal space available.[/img]
 	[img=Minus]Cannot have any support command on the flagship.[/img]
 	[img=Minus]Weapon range reduced by 30%.[/img]
-	[img=MenuIcons::3;20][i][color=#aaa]Destroyer Hulls can only be used on ships of size 300 or greater.[/color][/i][/img]
+	[img=MenuIcons::3;20][i][color=#aaa]驱逐舰 (船体)s can only be used on ships of size 300 or greater.[/color][/i][/img]
 >>
 ERROR_CANNOT_HAVE_SUPPORT: $1 cannot have support command.
 
-S_SPINAL_MOUNT_HULL: Spinal Mount Hull
+S_SPINAL_MOUNT_HULL: 山之脊 (船体)
 S_SPINAL_MOUNT_HULL_DESC: <<
 	A hull built completely around a single massive weapon turret, allowing its weapon to fire in any direction.
 
@@ -782,11 +782,11 @@ S_SPINAL_MOUNT_HULL_DESC: <<
 	[img=Plus]Increases the health of weapon hexes by 50%.[/img]
 	[img=Plus]Massively increases the health of the weapon turret hex.[/img]
 	[img=Minus]Only one weapon is allowed.[/img]
-	[img=MenuIcons::3;20][i][color=#aaa]Spinal Mount Hulls can only be used on ships of size 300 or greater.[/color][/i][/img]
+	[img=MenuIcons::3;20][i][color=#aaa]最低尺寸为 300.[/color][/i][/img]
 >>
 ERROR_WEAPON_LIMIT: $1 can only have 1 weapon.
 
-S_SUPERSTRUCTURE_HULL: Superstructure Hull
+S_SUPERSTRUCTURE_HULL: 稳固结构 (船体)
 S_SUPERSTRUCTURE_HULL_DESC: <<
 	A hull reinforced with superhard materials derived from asteroid ore in order to more easily construct and maintain the ship.
 
@@ -794,7 +794,7 @@ S_SUPERSTRUCTURE_HULL_DESC: <<
 	[img=Minus]Adds an Ore cost to building the ship.[/img]
 >>
 
-S_SIMULATOR: Simulator
+S_SIMULATOR: 战争游戏
 S_SIMULATOR_DESC: <<
 	A realistic combat simulator that the ship's crew can train at when not following any other orders.
 
@@ -818,7 +818,7 @@ S_FLEETCOMPUTER_DESC: <<
 
 	[img=Plus]Increases the range at which support ships can raid away from the flagship.[/img]
 	[img=Plus]Increases flagship repair rate.[/img]
-	[img=MenuIcons::3;20][i][color=#aaa]Only support ships equipped with ammo stores and set to an appropriate behavior will raid.[/color][/i][/img]
+	[img=MenuIcons::3;20][i][color=#aaa]Only support ships equipped with 军备货柜 (船体) and set to an appropriate behavior will raid.[/color][/i][/img]
 >>
 
 S_SOLARPANEL: Solar Panel
@@ -842,7 +842,7 @@ S_ROCKETPOD_DESC: <<
 	[img=Minus]High [b][color=#fefc61]supply cost[/color][/b].[/img]
 >>
 
-S_PLASMATHROWER: Plasma Thrower
+S_PLASMATHROWER: 等离子投石机
 S_PLASMATHROWER_DESC: <<
 	Launches concentrated clouds of dense plasma at enemy vessels. The plasma covers the outside of the ship, dealing damage in a wide area.
 
@@ -851,7 +851,7 @@ S_PLASMATHROWER_DESC: <<
 	[img=Minus]Plasma projectiles may miss.[/img]
 >>
 
-S_BROADCAST_ANTENNA: Broadcast Antenna
+S_BROADCAST_ANTENNA: 宣传广播
 S_BROADCAST_ANTENNA_DESC: <<
 	Equips a ship with an enormous electronic broadcasting antenna that can hack into civilian communication channels to spread propaganda to nearby planets and ships.
 
@@ -866,26 +866,26 @@ STATUS_PROPAGANDA_DESC: <<
 	This planet is affected by opposing [b]Propaganda[/b], and is providing 1 less point of Pressure on its native resource.
 >>
 
-S_BOOSTERENGINE: Booster Engine
+S_BOOSTERENGINE: 助推引擎
 S_BOOSTERENGINE_DESC: <<
 	An advanced rocket engine that massively boosts the support ship's acceleration while raiding away from the main fleet.
 
 	[img=Plus]Adds a large amount of thrust when the ship is raiding.[/img]
 	[img=Minus]Does not affect acceleration out of combat.[/img]
-	[img=MenuIcons::3;20][i][color=#aaa]Support ships have to be equipped with Ammo Stores and set to a raiding behavior in order to perform raiding in combat.[/color][/i][/img]
+	[img=MenuIcons::3;20][i][color=#aaa]Support ships have to be equipped with 军备货柜 (船体) and set to a raiding behavior in order to perform raiding in combat.[/color][/i][/img]
 >>
 
-S_PULSE_BOLT: Pulse Bolt
+S_PULSE_BOLT: 脉冲闸门
 S_PULSE_BOLT_DESC: <<
-	A modified beam weapon that forgoes any form of beam focusing in exchange for raw energy output.
+	改进的光束武器, 放弃任何聚焦光束的设计, 以换取原始能量的高频输出.
 
-	[img=Plus]Very high Beam DPS when firing.[/img]
-	[img=Minus]Extremely short range.[/img]
-	[img=Minus]Uses up supplies at a fast rate.[/img]
-	[img=MenuIcons::3;20][i][color=#aaa]Recommended for use on support ships with Ammo Stores and a Raiding behavior set.[/color][/i][/img]
+	[img=Plus]非常高的激光 DPS, 在射击时.[/img]
+	[img=Minus]极短的射击范围.[/img]
+	[img=Minus]以极高速率消耗补给品.[/img]
+	[img=MenuIcons::3;20][i][color=#aaa]建议支援舰使用军备货柜 (船体) 并设定行为准则为 "突袭".[/color][/i][/img]
 >>
 
-S_FLAK_BATTERY: Flak Battery
+S_FLAK_BATTERY: 高射炮台
 S_FLAK_BATTERY_DESC: <<
 	A short range gun battery that can deal massive damage to raiding enemy support ships close to it.
 
@@ -895,23 +895,23 @@ S_FLAK_BATTERY_DESC: <<
 	[img=Minus]Only marginally benefits from range upgrade research.[/img]
 >>
 
-S_DEFLECTOR_ARRAY: Deflector Array
+S_DEFLECTOR_ARRAY: 偏转阵列
 S_DEFLECTOR_ARRAY_DESC: <<
-	An array of deflector dishes aimed on a particular side of the ship can counter a limited amount of incoming weapons fire.
+	一个迷惑并偏转敌军瞄准系统的阵列, 敌人对我舰特定方向的射击被偏转, 但这个组件并非全能.
 
-	[img=Plus]Fully negates up to a limited amount of damage instances per second.[/img]
-	[img=Minus]Only negates damage coming in from the direction the array is aimed in.[/img]
-	[img=Minus]Uses a lot of [b]Power[/b].[/img]
+	[img=Plus]每秒都可以抵消一定数量的实际伤害.[/img]
+	[img=Minus]仅抵消来自阵列朝向的攻击.[/img]
+	[img=Minus]使用大量的 [b]能量[/b].[/img]
 >>
 
-S_SUBSPACE_SHREDDER: Subspace Shredder
+S_SUBSPACE_SHREDDER: 子空间撕裂器
 S_SUBSPACE_SHREDDER_DESC: <<
-	Amplifies natural subspace microtears to dangerous levels and sends a large amount of energy through the created fault line.
+	将撕裂微子空间的能力提升至危险级别, 以此制造一条裂纹, 并对裂纹输出极多的能量.
 
-	[img=Plus]Tear deals massive damage to ships it passes through.[/img]
-	[img=Minus]Extremely short range.[/img]
-	[img=Plus]Tear continues to slowly move and damage ships for a time until it dissipates.[/img]
-	[img=MenuIcons::3;20][i][color=#aaa]Recommended for use on support ships with Ammo Stores and a Raiding behavior set.[/color][/i][/img]
+	[img=Plus]对飞行路线周围的敌舰, 造成极大伤害.[/img]
+	[img=Minus]范围极小.[/img]
+	[img=Plus]裂纹会继续缓慢移动, 并对触碰到的船只造成伤害, 直至消散.[/img]
+	[img=MenuIcons::3;20][i][color=#aaa]该战术推荐使用军备货柜 (船体) 的支援舰, 并将行动准则设置为突袭.[/color][/i][/img]
 >>
 
 S_SLIPSTREAM_GENERATOR: Slipstream Generator

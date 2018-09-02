@@ -227,7 +227,7 @@ ORB_SENATORIAL_PALACE_DESC: <<
 	Can only be constructed if you are currently the Senate Leader.
 
 	All other empires gain vision over the system the Senatorial Palace is in.
-	
+
 	You can use influence to purchase Election, Galactic Superpower and Galactic Utopia cards at the Senatorial Palace, which allow for an influence victory when played appropriately.
 >>
 NOTIFY_SENATORIAL_PALACE: The [color=$2]$1[/color] have constructed a [b]Senatorial Palace[/b].
@@ -248,18 +248,18 @@ ABL_BUY_GALACTIC_SUPERPOWER_DESC: <<
 	Galactic Superpower provides multiple benefits. If you have both it and Galactic Utopia active at the same time, you win the game.
 >>
 
-ORB_RING_HABITAT: Ring Habitat
+ORB_RING_HABITAT: 环世界
 ORB_RING_HABITAT_BLURB: Increases the population that can live on and around the planet.
 ORB_RING_HABITAT_DESC: <<
-	A ring habitat constructed in low planetary orbit increases the population that can live in and around it, allowing a luxuriously maintained lifestyle in space for those who can afford it.
+	A 环世界 constructed in low planetary orbit increases the population that can live in and around it, allowing a luxuriously maintained lifestyle in space for those who can afford it.
 
 	Must be constructed in orbit of a planet. Increases the maximum population of that planet by 2.
 
-	2 Population is removed from the planet constructing the Ring Habitat to live on it.
-	
+	2 Population is removed from the planet constructing the 环世界 to live on it.
+
 	Costs 10 Influence to construct in addition to its build cost.
 
-	Only one ring habitat may be constructed in orbit of every planet.
+	Only one 环世界 may be constructed in orbit of every planet.
 >>
 
 ORB_SOLAR_SATELLITE: Solar Satellite
@@ -280,7 +280,7 @@ ORB_DEFENSE_SATELLITE_DESC: <<
 	A military satellite constructed in low planetary orbit grants improved defensive capabilities to the planet and its support ships.
 
 	Must be constructed in orbit of a planet.
-	
+
 	Support ships assigned to this planet fight at increased combat strength, and can independently move across the system in order to attack enemy fleets. Support ships set to Shield, Support or Artillery behavior will not leave the planet's orbit.
 
 	Costs 500 Energy to construct in addition to its build cost.

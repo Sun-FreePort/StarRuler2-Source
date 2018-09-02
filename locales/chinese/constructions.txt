@@ -9,13 +9,13 @@ CONS_MOON_BASE_DESC: <<
 	Only one moon base may be constructed for every moon present in orbit of the planet.
 >>
 
-CONS_FLARE_BOMB: Flare Bomb
+CONS_FLARE_BOMB: 耀斑炸弹
 CONS_FLARE_BOMB_DESC: <<
-	Construct a flare bomb using plans recovered from remnant artifacts.
+	Construct a 耀斑炸弹 using plans recovered from remnant artifacts.
 
-	Flare bombs can be used on stars. After a 60 second channel period, the star is triggered to emit a critical flare, wiping out all population in the solar system but leaving everything else intact. The planets in the system are irradiated for the next 5 minutes and cannot be colonized.
+	耀斑炸弹s can be used on stars. After a 60 second channel period, the star is triggered to emit a critical flare, wiping out all population in the solar system but leaving everything else intact. The planets in the system are irradiated for the next 5 minutes and cannot be colonized.
 
-	The flare bomb ship is destroyed in the process.
+	The 耀斑炸弹 ship is destroyed in the process.
 >>
 
 CONS_ARTIFICIAL_MOON: Artificial Moon

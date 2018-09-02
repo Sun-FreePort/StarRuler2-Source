@@ -16,7 +16,7 @@ RESEARCH_REQ_MEGACITIES: 建造 $2 座特大城市. [b]( $1 / $2 )[/b]
 RESEARCH_REQ_ARTIFACTS: 激活 $2 件文物神器. [b]( $1 / $2 )[/b]
 RESEARCH_REQ_LABS: 运营 $2 座研究与实验类建筑. [b]( $1 / $2 )[/b]
 RESEARCH_REQ_FTLSPENT: 合计花费 of $2 点 FTL 能量. [b]( $1 / $2 )[/b]
-RESEARCH_REQ_RING_HABITATS: Build $2 Ring Habitats. [b]( $1 / $2 )[/b]
+RESEARCH_REQ_RING_HABITATS: Build $2 环世界s. [b]( $1 / $2 )[/b]
 
 ALT_UNLOCK_ENERGY: [color=#42b4bd][b]学习解锁:[/b] 消耗 $1 点能源.[/color]
 ALT_UNLOCK_INFLUENCE: [color=#0087c7][b]学习解锁:[/b] 消耗 $1 点影响力.[/color]
@@ -662,181 +662,181 @@ R_BLD_SPIRE_DESC: <<
 	[bbloc=#BLD_SPIRE_DESC/]
 >>
 
-R_FLARE_BOMB: Flare Bomb
+R_FLARE_BOMB: 耀斑炸弹
 R_FLARE_BOMB_DESC: <<
-	Study the remains of collected remnant artifacts to recover plans for a remnant superweapons project.
+	通过收集到的文物残骸了解旧帝国的知识, 意图恢复旧帝国时期著名的究极武器计划.
 
-	Unlocks construction of Flare Bombs, costing large amounts of Ore and Energy to construct.
+	解锁携带有耀斑炸弹的舰船, 建造它需要消耗大量的矿石和能量.
 
-	Flare bombs can be used on stars. After a 60 second channel period, the star is triggered to emit a critical flare, wiping out all population in the solar system but leaving everything else intact. The planets in the system are irradiated for the next 5 minutes and cannot be colonized.
+	炸弹的目标是恒星. 在 60 秒的信道周期完成后, 会爆发一场致命的恒星耀斑, 随之而来的会抹杀这个星系一切的生命体, 并保留其他的一切. 辐射将在接下来的 5 分钟里衰减, 直至彻底湮灭. 在这段时间内, 殖民这些辐射星球无异于寻死.
 
-	The flare bomb ship is destroyed in the process.
+	携带耀斑炸弹的舰船, 在此过程中也会一同毁灭.
 >>
 
-R_HYPERFIELD_SEQUENCING: Hyperfield Sequencing
+R_HYPERFIELD_SEQUENCING: 跃迁阵列
 R_HYPERFIELD_SEQUENCING_DESC: <<
-	Removes the charge up time from using hyperdrives, but increases the overhead cost of performing a jump by 150 FTL Energy.
+	移除超光速跃迁的充能时间, 但增加了 150 点 FTL 能量的跃迁成本.
 
-	Ships still need to turn to face the direction they are jumping in before being able to activate their hyperdrive.
+	在能够激活其跃迁引擎前, 舰船仍需转向它跳跃的目标方位.
 >>
 
-R_ORB_RING_HABITAT: Ring Habitat
+R_ORB_RING_HABITAT: 环世界
 R_ORB_RING_HABITAT_DESC: <<
-	[color=#aaa][i]Unlocks the Ring Habitat orbital.[/i][/color]
+	[color=#aaa][i]解锁轨道建筑: 环世界.[/i][/color]
 
 	[bbloc=#ORB_RING_HABITAT_DESC/]
 >>
 
-R_ORB_SOLAR_SATELLITE: Solar Satellite
+R_ORB_SOLAR_SATELLITE: 太阳能卫星
 R_ORB_SOLAR_SATELLITE_DESC: <<
-	[color=#aaa][i]Unlocks the Solar Satellite orbital.[/i][/color]
+	[color=#aaa][i]解锁轨道建筑: 太阳能卫星.[/i][/color]
 
 	[bbloc=#ORB_SOLAR_SATELLITE_DESC/]
 >>
 
-R_ORB_DEFENSE_SATELLITE: Tactical Satellite
+R_ORB_DEFENSE_SATELLITE: 战术卫星
 R_ORB_DEFENSE_SATELLITE_DESC: <<
-	[color=#aaa][i]Unlocks the Tactical Satellite orbital.[/i][/color]
+	[color=#aaa][i]解锁轨道建筑: 战术卫星.[/i][/color]
 
 	[bbloc=#ORB_DEFENSE_SATELLITE_DESC/]
 >>
 
-R_ORB_HYDROPONICS_SATELLITE: Hydroponics Satellite
+R_ORB_HYDROPONICS_SATELLITE: 水培卫星
 R_ORB_HYDROPONICS_SATELLITE_DESC: <<
-	[color=#aaa][i]Unlocks the Hydroponics Satellite orbital.[/i][/color]
+	[color=#aaa][i]解锁轨道建筑: 水培卫星.[/i][/color]
 
 	[bbloc=#ORB_HYDROPONICS_SATELLITE_DESC/]
 >>
 
-R_SYS_CARRIER_HULL: Carrier Hull
+R_SYS_CARRIER_HULL: 航空母舰 (船体)
 R_SYS_CARRIER_HULL_DESC: <<
-	[color=#aaa][i]Unlocks the Carrier Hull for flagships.[/i][/color]
+	[color=#aaa][i]解锁旗舰船体: 航空母舰.[/i][/color]
 
 	[bbloc=#S_CARRIER_HULL_DESC/]
 >>
 
-R_SYS_DESTROYER_HULL: Destroyer Hull
+R_SYS_DESTROYER_HULL: 驱逐舰 (船体)
 R_SYS_DESTROYER_HULL_DESC: <<
-	[color=#aaa][i]Unlocks the Destroyer Hull for flagships.[/i][/color]
+	[color=#aaa][i]解锁旗舰专有船体: 驱逐舰.[/i][/color]
 
 	[bbloc=#S_DESTROYER_HULL_DESC/]
 >>
 
-R_SYS_SUPERSTRUCTURE_HULL: Superstructure Hull
+R_SYS_SUPERSTRUCTURE_HULL: 稳固结构 (船体)
 R_SYS_SUPERSTRUCTURE_HULL_DESC: <<
-	[color=#aaa][i]Unlocks the Superstructure Hull for flagships.[/i][/color]
+	[color=#aaa][i]解锁旗舰专有船体: 稳固结构.[/i][/color]
 
 	[bbloc=#S_SUPERSTRUCTURE_HULL_DESC/]
 >>
 
-R_SYS_SPINAL_MOUNT_HULL: Spinal Mount Hull
+R_SYS_SPINAL_MOUNT_HULL: 山之脊 (船体)
 R_SYS_SPINAL_MOUNT_HULL_DESC: <<
-	[color=#aaa][i]Unlocks the Spinal Mount Hull for flagships.[/i][/color]
+	[color=#aaa][i]解锁旗舰专有船体: 山之脊.[/i][/color]
 
 	[bbloc=#S_SPINAL_MOUNT_HULL_DESC/]
 >>
 
-R_SYS_FLEET_COMPUTER: Fleet Computer
+R_SYS_FLEET_COMPUTER: 舰载计算机
 R_SYS_FLEET_COMPUTER_DESC: <<
-	[color=#aaa][i]Unlocks the Fleet Computer subsystem for flagships.[/i][/color]
+	[color=#aaa][i]解锁旗舰专有子系统: 舰载计算机.[/i][/color]
 
 	[bbloc=#S_FLEETCOMPUTER_DESC/]
 >>
 
-R_SYS_SOLARPANEL: Solar Panel
+R_SYS_SOLARPANEL: 太阳能板
 R_SYS_SOLARPANEL_DESC: <<
-	[color=#aaa][i]Unlocks the Solar Panel subsystem for flagships.[/i][/color]
+	[color=#aaa][i]解锁旗舰专有子系统: 太阳能板.[/i][/color]
 
 	[bbloc=#S_SOLARPANEL_DESC/]
 >>
 
-R_SYS_FLAK_BATTERY: Flak Battery
+R_SYS_FLAK_BATTERY: 高射炮台
 R_SYS_FLAK_BATTERY_DESC: <<
-	[color=#aaa][i]Unlocks the Flak Battery weapon for flagships.[/i][/color]
+	[color=#aaa][i]解锁旗舰专有武器: 高射炮台.[/i][/color]
 
 	[bbloc=#S_FLAK_BATTERY_DESC/]
 >>
 
-R_SYS_WARHEAD: Warhead
+R_SYS_WARHEAD: 核储备
 R_SYS_WARHEAD_DESC: <<
-	[color=#aaa][i]Unlocks the Warhead weapon for flagships.[/i][/color]
+	[color=#aaa][i]解锁旗舰专有武器: 核储备.[/i][/color]
 
 	[bbloc=#S_WARHEAD_DESC/]
 >>
 
-R_SYS_PLASMA_THROWER: Plasma Thrower
+R_SYS_PLASMA_THROWER: 等离子投石机
 R_SYS_PLASMA_THROWER_DESC: <<
-	[color=#aaa][i]Unlocks the Plasma Thrower weapon for flagships and support ships.[/i][/color]
+	[color=#aaa][i]解锁舰船专有武器: 等离子投石机.[/i][/color]
 
 	[bbloc=#S_PLASMATHROWER_DESC/]
 >>
 
-R_SYS_PULSE_BOLT: Pulse Bolt
+R_SYS_PULSE_BOLT: 脉冲闸门
 R_SYS_PULSE_BOLT_DESC: <<
-	[color=#aaa][i]Unlocks the Pulse Bolt weapon for support ships.[/i][/color]
+	[color=#aaa][i]解锁支援舰专有武器: 脉冲闸门.[/i][/color]
 
 	[bbloc=#S_PULSE_BOLT_DESC/]
 >>
 
-R_SYS_SUBSPACE_SHREDDER: Subspace Shredder
+R_SYS_SUBSPACE_SHREDDER: 子空间撕裂器
 R_SYS_SUBSPACE_SHREDDER_DESC: <<
-	[color=#aaa][i]Unlocks the Subspace Shredder weapon for support ships.[/i][/color]
+	[color=#aaa][i]解锁支援舰专有子系统: 助推引擎.[/i][/color]
 
 	[bbloc=#S_SUBSPACE_SHREDDER_DESC/]
 >>
 
-R_SYS_RAMJET: Bussard Ramjet
+R_SYS_RAMJET: 星际冲压发动机
 R_SYS_RAMJET_DESC: <<
-	[color=#aaa][i]Unlocks the Bussard Ramjet subsystem for flagships.[/i][/color]
+	[color=#aaa][i]解锁旗舰专有子系统: 星际冲压发动机.[/i][/color]
 
 	[bbloc=#S_RAMJET_DESC/]
 >>
 
-R_SYS_BOOSTER_ENGINE: Booster Engine
+R_SYS_BOOSTER_ENGINE: 助推引擎
 R_SYS_BOOSTER_ENGINE_DESC: <<
-	[color=#aaa][i]Unlocks the Booster Engine subsystem for support ships.[/i][/color]
+	[color=#aaa][i]解锁支援舰专有子系统: 助推引擎.[/i][/color]
 
 	[bbloc=#S_BOOSTERENGINE_DESC/]
 >>
 
-R_SYS_BROADCAST_ANTENNA: Broadcast Antenna
+R_SYS_BROADCAST_ANTENNA: 宣传广播
 R_SYS_BROADCAST_ANTENNA_DESC: <<
-	[color=#aaa][i]Unlocks the Broadcast Antenna subsystem for flagships.[/i][/color]
+	[color=#aaa][i]解锁旗舰专有子系统: 宣传广播.[/i][/color]
 
 	[bbloc=#S_BROADCAST_ANTENNA_DESC/]
 >>
 
-R_SYS_SIMULATOR: Simulator
+R_SYS_SIMULATOR: 战争游戏
 R_SYS_SIMULATOR_DESC: <<
-	[color=#aaa][i]Unlocks the Simulator subsystem for flagships.[/i][/color]
+	[color=#aaa][i]解锁旗舰专有子系统: 战争游戏.[/i][/color]
 
 	[bbloc=#S_SIMULATOR_DESC/]
 >>
 
-R_SYS_TROOP_PODS: Troop Pods
+R_SYS_TROOP_PODS: 空降舱
 R_SYS_TROOP_PODS_DESC: <<
-	[color=#aaa][i]Unlocks the Troop Pods subsystem for flagships.[/i][/color]
+	[color=#aaa][i]解锁旗舰专有子系统: 空降舱.[/i][/color]
 
 	[bbloc=#S_TROOPPODS_DESC/]
 >>
 
-R_SYS_CRYSTAL_ARMOR: Crystalline Armor
+R_SYS_CRYSTAL_ARMOR: 晶体装甲
 R_SYS_CRYSTAL_ARMOR_DESC: <<
-	[color=#aaa][i]Unlocks Crystalline 装甲 for flagships and support ships.[/i][/color]
+	[color=#aaa][i]解锁舰船专有子系统: 晶体装甲.[/i][/color]
 
 	[bbloc=#S_CRYSTALARMOR_DESC/]
 >>
 
-R_SYS_NANOMESH: Nano Mesh
+R_SYS_NANOMESH: 纳米网格
 R_SYS_NANOMESH_DESC: <<
-	[color=#aaa][i]Unlocks the Nano Mesh subsystem for flagships and support ships.[/i][/color]
+	[color=#aaa][i]解锁舰船专有子系统: 纳米网格.[/i][/color]
 
 	[bbloc=#NANOMESH_DESC/]
 >>
 
-R_SYS_DEFLECTOR_ARRAY: Deflector Array
+R_SYS_DEFLECTOR_ARRAY: 偏转阵列
 R_SYS_DEFLECTOR_ARRAY_DESC: <<
-	[color=#aaa][i]Unlocks the Deflector Array subsystem for flagships.[/i][/color]
+	[color=#aaa][i]解锁旗舰专有子系统: 偏转阵列.[/i][/color]
 
 	[bbloc=#S_DEFLECTOR_ARRAY_DESC/]
 >>
