@@ -1,26 +1,26 @@
-BCAT_Actions: Actions
-BCAT_Beacons: Beacons
-BCAT_Upgrades: Upgrades
+BCAT_Actions: 行动
+BCAT_Beacons: 信标
+BCAT_Upgrades: 改善
 
-CONS_MOON_BASE: Moon Base
+CONS_MOON_BASE: 月球基地
 CONS_MOON_BASE_DESC: <<
-	Construct a large amount of infrastructure on one of the planet's moons, making more area available for placing buildings and increasing the maximum population of the planet by 2.
+	在卫星上建造大量的基础设施, 从而拥有更多可建筑区域, 并为行星提供二十亿人口 (+2).
 
-	Only one moon base may be constructed for every moon present in orbit of the planet.
+	每个星球仅能建造一颗人造月球.
 >>
 
 CONS_FLARE_BOMB: 耀斑炸弹
 CONS_FLARE_BOMB_DESC: <<
-	Construct a 耀斑炸弹 using plans recovered from remnant artifacts.
+	通过旧帝国文物复兴计划的研究, 构造一颗耀斑炸弹.
 
-	耀斑炸弹s can be used on stars. After a 60 second channel period, the star is triggered to emit a critical flare, wiping out all population in the solar system but leaving everything else intact. The planets in the system are irradiated for the next 5 minutes and cannot be colonized.
+	炸弹的目标是恒星. 在 60 秒的信道周期完成后, 会爆发一场致命的恒星耀斑, 随之而来的会抹杀这个星系一切的生命体, 并保留其他的一切. 辐射将在接下来的 5 分钟里衰减, 直至彻底湮灭. 在这段时间内, 殖民这些辐射星球无异于寻死.
 
-	The 耀斑炸弹 ship is destroyed in the process.
+	携带耀斑炸弹的舰船, 在此过程中也会一同毁灭.
 >>
 
-CONS_ARTIFICIAL_MOON: Artificial Moon
+CONS_ARTIFICIAL_MOON: 人造月球
 CONS_ARTIFICIAL_MOON_DESC: <<
-	Construct an artificial moon to orbit this planet. Only one artificial moon can be constructed around a planet.
+	建造一颗人造月球绕行星运行. 每个星球仅能建造一颗人造月球.
 
-	[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]Building an artificial moon requires Ore mined from asteroids.[/color][/b][/img]
+	[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]建造人造月球需要从小行星中开采大量矿石.[/color][/b][/img]
 >>

@@ -23,104 +23,104 @@ BUILD_ASTEROID_OPTION: 建造 $1 采矿基地 (产能 $2)
 VANISH_TIP: 将于 $1 耗尽.
 VANISH_TIP_NOUSE: 将于使用 $1 次后耗尽.
 RESOURCE: 资源
-RES_PROVIDES_PRESSURE: 负荷:
+RES_PROVIDES_PRESSURE: 潜力:
 
 WELFARE_TT: <<|
-	Any funds left in your budget when the budget cycle is over will be
-	removed and converted into the resource you choose from the dropdown.
+	预算周期结束时, 预算中剩余的资金将转换为您
+	从下拉列表中选择的资源.
 >>
 
 WELFARE_INFLUENCE: <<
-	Provide Welfare
-	Converts each $1 of unspent budget to influence generation.
+	社会福利
+	以 $1:1 的比例, 将剩余预算转化为影响力.
 >>
 
 WELFARE_ENERGY: <<
-	Subsidize Power
-	Converts each $1 of unspent budget to energy generation.
+	能源津贴
+	以 $1:1 的比例, 将剩余预算转化为能源.
 >>
 
 WELFARE_RESEARCH: <<
-	Research Grants
-	Converts each $1 of unspent budget to research generation.
+	科研基金
+	以 $1:1 的比例, 将剩余预算转化为研究点.
 >>
 
 WELFARE_LABOR: <<
-	Public Works
-	Converts each $1 of unspent budget to labor on the homeworld.
+	公共建设
+	以 $1:1 的比例, 将剩余预算转化为首都星的产能.
 >>
 
 WELFARE_DEFENSE: <<
-	Combat Readiness
-	Converts each $1 of unspent budget to global defense generation.
+	战争预算
+	以 $1:1 的比例, 将剩余预算转化为防御值.
 >>
 
 GTT_MONEY: <<
-	[font=Medium]Money[/font]
-	[i]Every budget cycle of 3 minutes generates new money to spend. Any money not spent after the budget cycle ends is put into [img=$4;20/] welfare.[/i]
+	[font=Medium]预算[/font]
+	[i]每个周期时长为 3 分钟, 每周期都会生成新的预算. 上周期结束时剩余的闲置资金都会投入到 [img=$4;20/]福利 中.[/i]
 
-	Remaining Budget: [right]$1[/right]
-	Time Remaining: [right]$3[/right]
-	Upcoming Budget: [right]$2[/right]
+	剩余预算: [right]$1[/right]
+	剩余时间: [right]$3[/right]
+	下一轮预算: [right]$2[/right]
 >>
 
 GTT_BONUS_MONEY: <<|
-	[font=Subtitle][b]Special Funds:[/b] [right][color=#0f0]$1[/color][/right][/font]
+	[font=Subtitle][b]额外资金:[/b] [right][color=#0f0]$1[/color][/right][/font]
 
-	[i]Special funds are collected from various one-time sources such as
-	Profiteering cards or Anomalies, and will carry over between budgets if not
-	spent.[/i]
+	[i]源于一次性的资金来源, 譬如外交卡 / 探索 / 异常等收益, 这部分资金不会被投入福利中.[/i]
 >>
 
 GTT_DEBT_PENALTY: <<
-	[color=#f00][b]Debt Growth Penalty:[/b] [right]$1[/right][/color]
-	[i]Being in debt reduces population growth rate on all your planets.[/i]
+	[color=#f00][b]轻度负债惩罚:[/b] [right]$1[/right][/color]
+	[i]债务营造了悲观气氛, 降低了星球的生育率.[/i]
 >>
 
 GTT_FLEET_PENALTY: <<
-	[color=#f00][b]Debt Fleet Strength Penalty:[/b] [right]$1[/right][/color]
-	[i]Being in massive debt reduces the strength of all your fleets.[/i]
+	[color=#f00][b]巨额负债惩罚:[/b] [right]$1[/right][/color]
+	[i]深重的负债甚至动摇了军心, 舰队战力降低.[/i]
 >>
 
 GTT_INFLUENCE: <<
-	[font=Medium]Influence[/font]
-	[i]Influence points are used to trigger diplomatic actions and win galactic senate votes. If storing more points than your optimal storage cap (based on your total generation), your generation rate will be decreased.[/i]
+	[font=Medium]影响力[/font]
+	[i]影响力可以用来完成外交行动, 或是赢取星际议会投票. 如果储存的点数大于你的最佳储存上限 (该数值基于我们的影响力产量), 影响力产出速度就越低.[/i]
 
-	Available Points: [right]$1[/right]
-	Optimal Storage: [right]$2[/right]
-	Generation Rate: [right]$3[/right]
+	星系产出比例:[right]$4[/right]
 
-	Influence Stake: [right]$5[/right]
-	Percentage of Galactic Stake: [right]$4[/right]
+	可用点数: [right]$1[/right]
+	最佳储量: [right]$2[/right]
+	产出速度: [right]$3[/right]
 
-	[i]Influence Stake is provided by influence buildings. The percentage of the total influence stake from all empires that you currently control determines your influence generation rate.[/i]
+	影响力股份: [right]$5[/right]
+	股份占比: [right]$4[/right]
+
+	[i]影响力股份由对应建筑物提供. 在世界范围, 您目前拥有的影响力股份所占的百分比, 决定了您的影响力生成速度.[/i]
 >>
 
 GTT_ENERGY: <<
-	[font=Medium]Energy[/font]
-	[i]Energy is used to activate abilities on artifacts found across the galaxy. The more Energy you are currently storing above your free storage cap, the more your generation rate is reduced.[/i]
+	[font=Medium]能量[/font]
+	[i]能量可以用于激活我们所拥有的文物. 当前储存的能量超出免费能量储量上限越多, 能量产出速度就越低. [/i]
 
-	Available Energy: [right]$1[/right]
-	Generation Rate: [right]$2[/right]
-	Free Storage: [right]$3[/right]
-	Storage Penalty: [right]$4[/right]
+	可用能量:[right] $1[/right]
+	产出速度:[right]$2[/right]
+	免费储量:[right]$3[/right]
+	存量衰减:[right]$4[/right]
 >>
 
 GTT_FTL: <<
-	[font=Medium]FTL Energy[/font]
-	[i]FTL Energy is paid to engage the faster-than-light drives on your ships.[/i]
+	[font=Medium]FTL 能量[/font]
+	[i]进行超光速星际跃迁需要消耗 FTL (超光速) 能量.[/i]
 
-	Available FTL: [right]$1[/right]
-	Maximum Storage: [right]$2[/right]
-	Generation Rate: [right]$3[/right]
+	可用 FTL: [right]$1[/right]
+	最大储量: [right]$2[/right]
+	产出速度: [right]$3[/right]
 >>
 
 GTT_RESEARCH: <<
-	[font=Medium]Research[/font]
-	[i]Research points can be spent to unlock various technologies in the research grid. Research generation goes down over time as you generate more points.[/i]
+	[font=Medium]科研点[/font]
+	[i]可以花费研究点来解锁研究网格中的各种技术,. Research generation goes down over time as you generate more points.[/i]
 
-	Available Research Points: [right]$1[/right]
-	Generation Rate: [right]$2[/right]
+	可用科研点: [right]$1[/right]
+	产出速度: [right]$2[/right]
 >>
 
 GTT_RESEARCH_TECH: <<
@@ -136,17 +136,17 @@ GTT_DEFENSE: <<
 
 	[i]Defense reserve is filled up before ships are spawned automatically. If the defense reserve is full, it can be deployed at any planet to spawn defense ships. While full, global defense generation automatically spawns ships as usual.[/i]
 >>
-TT_DEPLOY: Deploy Defense Reserve
+TT_DEPLOY: 部署储备的防御值
 
-RESOURCE_BUDGET: Budget
-RESOURCE_MONEY: Money
-RESOURCE_INFLUENCE: Influence
-RESOURCE_ENERGY: Energy
+RESOURCE_BUDGET: 预算
+RESOURCE_MONEY: 资金
+RESOURCE_INFLUENCE: 影响力
+RESOURCE_ENERGY: 能量
 RESOURCE_FTL: FTL
-RESOURCE_RESEARCH: Research
-RESOURCE_DEFENSE: Defense
-RESOURCE_LABOR: Labor
-LOYALTY: Loyalty
+RESOURCE_RESEARCH: 科研
+RESOURCE_DEFENSE: 防御
+RESOURCE_LABOR: 产能
+LOYALTY: 忠诚
 
 PRESSURE_Money: <<|
 	[b]Money[/b] generates budget income for the empire.
@@ -182,11 +182,11 @@ MONEY_TYPE_10: Vassals
 MOD_SPEED: Speed
 MOD_TIME: Time
 
-EFFECT_ADDPRESSURECAP: Pressure Cap.
+EFFECT_ADDPRESSURECAP: 潜力 Cap.
 EFFECT_MODCIVRESOURCE: Civilian $1
 EFFECT_ADDRESOURCE: $1
-EFFECT_ADDPRESSURE: $1 Pressure
-EFFECT_EFFICIENCY: Pressure
+EFFECT_ADDPRESSURE: $1 潜力
+EFFECT_EFFICIENCY: 潜力
 EFFECT_OVERPOPULATION: Overpopulation
 EFFECT_BLDMAINTREFUND: Building Maint.
 EFFECT_VANISHBONUS: Temp. Resources
@@ -216,7 +216,7 @@ HYPER_OATS_DESC: <<
 
 ALUMINUM: Aluminum
 ALUMINUM_DESC: <<
-	Increases pressure capacity by 1.
+	Increases 潜力 capacity by 1.
 >>
 
 IRON: Iron
@@ -228,22 +228,22 @@ IRON_DESC: <<
 COAL: Coal
 COAL_EFFECT: Civilian Labor
 COAL_DESC: <<
-	Increases labor generation from civilian structures by 30%.
+	Increases 生产力产出 from civilian structures by 30%.
 >>
 
 SALTS: Salts (Food)
 SALTS_DESC: <<
-	Can be used as food. Adds pressure to the production of all resources.
+	Can be used as food. 增加 潜力 to the production of all resources.
 >>
 
 PHASITE: Phasite
 PHASITE_DESC: <<
-	Adds 1 research production per 5 billion population.
+	增加 1 research production per 5 billion population.
 >>
 
 FULRATE: Fulrate
 FULRATE_DESC: <<
-	Adds 4 additional pressure of the consuming planet's native resource.
+	增加 4 additional 潜力 of the consuming planet's native resource.
 >>
 
 GEMS: Gems
@@ -266,7 +266,7 @@ SPICE_DESC: <<
 UNOBTANIUM: Unobtanium
 UNOBTANIUM_EFFECT: Morph:\n[right]Awaiting Import...[/right]
 UNOBTANIUM_DESC: <<
-	Cannot be exported. Can morph into a copy of any resource you control.
+	无法出口. Can morph into a copy of any resource you control.
 >>
 ABL_MORPH_UNOBTANIUM: Morph Unobtanium
 ABL_MORPH_UNOBTANIUM_DESC: <<|
@@ -324,9 +324,9 @@ TITANIUM_DESC: <<
 
 LOCAL_ASTEROID_FIELD: Local Asteroid Field
 LOCAL_ASTEROID_FIELD_DESC: <<
-	Civilian labor generation is increased by 50%.
+	Civilian 生产力产出 is increased by 50%.
 
-	[color=#ff7070][b]Cannot be exported.[/b][/color]
+	[color=#ff7070][b]无法出口.[/b][/color]
 >>
 
 EXPLOSIVES: Explosives
@@ -378,7 +378,7 @@ STATUS_PSIONIC_PROTECTED_DESC: <<
 >>
 
 ANCIENT_CITY: Ancient City
-ANCIENT_CITY_DESC: [color=#ff7070][b]Cannot be exported.[/b][/color]
+ANCIENT_CITY_DESC: [color=#ff7070][b]无法出口.[/b][/color]
 
 SUPERCARBONS: Supercarbons
 SUPERCARBONS_DESC: <<
@@ -387,12 +387,12 @@ SUPERCARBONS_DESC: <<
 HYDROCONDUCTORS: Hydroconductors
 HYDROCONDUCTORS_EFFECT: Duplicate Effects
 HYDROCONDUCTORS_DESC: <<|
-	Increases all labor generation on the consuming planet by 50%.
+	Increases all 生产力产出 on the consuming planet by 50%.
 >>
 
 ANTIMATTER: Antimatter
 ANTIMATTER_DESC: <<|
-	Adds 2048 support capacity. Support ships in orbit operate at 400% effectiveness.
+	增加 2048 support capacity. Support ships in orbit operate at 400% effectiveness.
 >>
 
 EXOTIC_MATTER: Exotic Matter
@@ -402,17 +402,17 @@ EXOTIC_MATTER_DESC: <<
 
 CORINIUM: Corinium
 CORINIUM_DESC: <<
-	Doubles the consuming planet's base pressure capacity.
+	Doubles the consuming planet's base 潜力 capacity.
 >>
 
 ILLINIUM: Illinium
 ILLINIUM_DESC: <<
-	Doubles the pressure provided by Level 0 resources on the consuming planet.
+	Doubles the 潜力 provided by Level 0 resources on the consuming planet.
 >>
 
 KALSUNIM: Kalsunim
 KALSUNIM_DESC: <<
-	Labor generation on the consuming planet also increases Defense.
+	生产力产出 on the consuming planet also increases Defense.
 >>
 
 DRUGS: Drugs
@@ -436,27 +436,27 @@ FTL_CRYSTALS_DESC: <<
 	[b]If this planet is Level 5:[/b]
 	[offset=30]All FTL jumps leaving from this system are free.[/offset]
 
-	[i][color=#aaa]This resource is a scalable resource and cannot be exported or used to level up. Its bonuses depend on the level of the planet.[/color][/i]
+	[i][color=#aaa]这是种动态资源, 也不能用于出口或升级. 它的效果取决于星球的级别.[/color][/i]
 >>
 
 UNIQUE_RESEARCH: Errite
 UNIQUE_RESEARCH_DESC: <<|
-	[b]Unique[/b]. Produces 10 [img=$Research;20/] [color=$Research]Research[/color] pressure.
+	[b]Unique[/b]. Produces 10 [img=$Research;20/] [color=$Research]Research[/color] 潜力.
 >>
 
 UNIQUE_INFLUENCE: Irite
 UNIQUE_INFLUENCE_DESC: <<|
-	[b]Unique[/b]. Produces 10 [img=$Influence;20/] [color=$Influence]Influence[/color] pressure.
+	[b]Unique[/b]. Produces 10 [img=$Influence;20/] [color=$Influence]Influence[/color] 潜力.
 >>
 
 UNIQUE_DEFENSE: Kallite
 UNIQUE_DEFENSE_DESC: <<|
-	[b]Unique[/b]. Produces 10 [img=$Defense;20/] [color=$Defense]Defense[/color] pressure.
+	[b]Unique[/b]. Produces 10 [img=$Defense;20/] [color=$Defense]Defense[/color] 潜力.
 >>
 
 UNIQUE_ENERGY: Rulite
 UNIQUE_ENERGY_DESC: <<|
-	[b]Unique[/b]. Produces 10 [img=$Energy;20/] [color=$Energy]Energy[/color] pressure.
+	[b]Unique[/b]. Produces 10 [img=$Energy;20/] [color=$Energy]Energy[/color] 潜力.
 >>
 
 MARENIUM: Marenium
@@ -497,236 +497,234 @@ ASTEROID_INFLUENCE_DESC: <<|
 ASTEROID_LABOR: Construction Materials
 ASTEROID_LABOR_EFFECT: Civilian Labor
 ASTEROID_LABOR_DESC: <<
-	Adds 10 flat labor generation to the consuming planet while active.
+	增加 10 标准生产力产出 to the consuming planet while active.
 
 	Only ticks down while the planet has active constructions.
 >>
 
-ASTEROID_DEFENSE: Volatile Materials
+ASTEROID_DEFENSE: 挥发性物质
 ASTEROID_DEFENSE_DESC: <<
 	Grants an arsenal of short-range weaponry wherever it is consumed.
 
-	Can only be exported once, then locks its destination and can no longer be changed.
+	导出后无法更改.
 
 	Only ticks down while used in combat.
 >>
 
-ASTEROID_AFFINITY: Morphic Materials
+ASTEROID_AFFINITY: 记忆金属
 ASTEROID_AFFINITY_DESC: <<
-	Adds 2 pressure of the consuming planet's native resource.
+	增加本土资源的 2 消费潜力.
 >>
 
-SOYLENT1: Soylent Teal
+SOYLENT1: Soylent 蓝色食品
 SOYLENT1_DESC: <<
-	This might be food.
+	这可能是食物.
 >>
 
-SOYLENT2: Soylent Magenta
+SOYLENT2: Soylent 紫色食品
 SOYLENT2_DESC: <<
-	People eat it, so I guess it is.
+	人们吃它, 所以我猜它是...
 >>
 
-SOYLENT3: Soylent Infrared
+SOYLENT3: Soylent 辐照
 SOYLENT3_DESC: <<
-	It's nice and warm.
+	这很好, 很温暖.
 >>
 
-SOYLENT4: Soylent Green
+SOYLENT4: Soylent 绿色食品
 SOYLENT4_DESC: <<
-	Definitely not people.
+	绝对不是人肉! (致敬反乌托邦影片 Soylent Green)
 >>
 
-HEAVY_WATER: Heavy Water
+HEAVY_WATER: 重水
 HEAVY_WATER_DESC: <<|
-	Adds $1 random pressure over time.
-	The pressure Type changes every 3 minutes.
+	增加 $1 随机类型的压力.
+	该类型每 3 分钟改变一次.
 >>
 
-BOOST_WATER: Reactive Water
+BOOST_WATER: 活性水
 BOOST_WATER_DESC: <<|
-	Created from bonding 4 Water.
+	结合了 4 种水资源的产品.
 
-	[b]Boosts the native resource with:[/b]
-	[nl/][offset=30]+$1 Extra pressure given.[/offset]
+	[b]提升本地资源:[/b]
+	[nl/][offset=30]+$1 额外压力.[/offset]
 >>
 
-CLEAR_WATER: Clear Water
+CLEAR_WATER: 清水
 CLEAR_WATER_DESC: <<|
-	Created from bonding 8 Water.
+	结合了 8 种水资源的产品.
 
-	Converts all civilian Influence, Defense, Research and Energy production
-	into money generation.
+	转化平民建筑产生的影响力 / 防御力 / 研究和能源产出, 变为资金产出.
 >>
 
-AWESOME_WATER: Phoenix Water
+AWESOME_WATER: 凤凰水
 AWESOME_WATER_DESC: <<|
-	Created from bonding 16 Water.
+	结合了 16 种水资源的产品.
 
-	All civilian production +$1.
+	所有的民用产品价值 +$1.
 >>
 
-SYNTHETICS: Synthetics
+SYNTHETICS: 合成纤维
 SYNTHETICS_DESC: <<|
-	Grants one wildcard affinity. Cannot be exported.
+	百搭的服饰材料. 无法出口.
 >>
 
-MICROCLINE: MICROCLINE
+MICROCLINE: 微斜长石
 MICROCLINE_DESC: <<|
-	A completely useless resource that seems to occur in vast, vast quantities.
+	大面积 \ 大量的出现, 但却完全无用的资源.
 
-	Somehow everything it touches turns into more microcline. Peculiar.
+	在不知原因下, 它具备将接触到的石头同化的特有能力.
 >>
 
-SLAVE_LABOR: Slave Labor
+SLAVE_LABOR: 奴隶劳工
 SLAVE_LABOR_DESC: <<
-	Adds 5 flat labor generation.
+	增加 5 标准生产力产出.
 
-	Only ticks down while used in construction.
+	它是一种消耗品.
 >>
 
-PLAINS: Vast Plains
+PLAINS: 广袤平原
 PLAINS_BLURB: <<
-	Planet has a massive surface. Reduced total building maintenance per level.
+	行星上有广袤的平原地形, 极大地简化了建筑的维护工作, 每级都降低建筑维护费用.
 >>
 PLAINS_DESC: <<
-	The planet has a massive surface.
+	行星上有广袤的平原地形.
 
-	Tile development speed is increased by [levels=$1;#ffb4b6]100%/150%/200%/250%/300%/350%[/levels].
+	开发速度每级提升 [levels=$1;#ffb4b6]100%/150%/200%/250%/300%/350%[/levels].
 
-	The total maintenance cost of buildings on this planet is reduced by up to [levels=$1;#d1cb6a]§50k/§150k/§300k/§500k/§750k/§1.1M[/levels].
+	建筑维护支出每级降低 [levels=$1;#d1cb6a]§50k/§150k/§300k/§500k/§750k/§1.1M[/levels].
 >>
 
-QUARTZ: Quartz
+QUARTZ: 石英
 QUARTZ_BLURB: <<
-	Gain [levels=$1;#ffb4b6]10/25/50/80/120/200[/levels] bonus stored labor per artifact activated.
+	每激活一个文物, 都将增加 [levels=$1;#ffb4b6]10/25/50/80/120/200[/levels] 单位的额外生产力.
 >>
 QUARTZ_DESC: <<
-	Every time you activate an artifact, this planet gains [levels=$1;#ffb4b6]10/25/50/80/120/200[/levels] stored labor, provided it has enough labor storage to hold it.
+	只要有最够的储备空间, 每激活一个文物, 这颗星球都将增加 [levels=$1;#ffb4b6]10/25/50/80/120/200[/levels] 单位的额外生产力.
 
-	This planet has [levels=$1;#ffb4b6]10/110/210/310/410/510[/levels] bonus labor storage.
+	这颗星球获得 [levels=$1;#ffb4b6]10/110/210/310/410/510[/levels] 单位的生产力额外储备.
 
-	[i][color=#aaa]This resource is a scalable resource and cannot be exported or used to level up. Its bonuses depend on the level of the planet.[/color][/i]
+	[i][color=#aaa]这是种动态资源, 也不能用于出口或升级. 它的效果取决于星球的级别.[/color][/i]
 >>
 
 ALLONDIUM: Allondium
 ALLONDIUM_BLURB: <<
-	Increases civilian influence generation.
-	Various improvements to diplomacy.
+	增强民用建筑对影响力的产出.
+	强化外交能力.
 >>
 ALLONDIUM_DESC: <<
-	Influence generation on this planet is increased by [levels=$1;#ffb4b6]10%/20%/30%/40%/50%/60%[/levels].
+	这颗星球的影响力产量增强 [levels=$1;#ffb4b6]10%/20%/30%/40%/50%/60%[/levels].
 
-	The cost of purchasing diplomacy cards further into the stack is reduced by up to [levels=$1;#ffb4b6]0/0/1/1/2/2[/levels] influence.
+	购买外交卡成本获得 [levels=$1;#ffb4b6]0/0/1/1/2/2[/levels] 点影响力的优惠.
 
-	[b]If this planet is Level 4 or higher:[/b]
-	[offset=30]This planet gains abilities to purchase 'Name Flagship' or 'Annex Planet' cards at will.[/offset]
+	[b]如果星球高于 3 级:[/b]
+	[offset=30]这个星球有能力随意购买 '荣誉舰名' 或 '兼并行星' 外交卡牌.[/offset]
 
-	[b]If this planet is Level 5:[/b]
-	[offset=30]The cost of playing cards into a vote is reduced by up to 3 influence.[/offset]
+	[b]若星球达到 5 级:[/b]
+	[offset=30]使用卡片进行投票的影响力成本降低 3 点.[/offset]
 
-	[i][color=#aaa]This resource is a scalable resource and cannot be exported or used to level up. Its bonuses depend on the level of the planet.[/color][/i]
+	[i][color=#aaa]这是种动态资源, 也不能用于出口或升级. 它的效果取决于星球的级别.[/color][/i]
 >>
-ABL_BUY_NAME_FLAGSHIP: Purchase 'Name Flagship'
+ABL_BUY_NAME_FLAGSHIP: 购买'荣誉舰名'
 ABL_BUY_NAME_FLAGSHIP_DESC: <<
-	Purchase a 'Name Flagship' diplomacy card using this planet's ability.
+	使用本行星的能力来购买 '荣誉舰名' 外交卡牌.
 
-	[i][color=#aaa]Cooldown is shared with "Purchase 'Annex Planet'" ability.[/color][/i]
+	[i][color=#aaa]冷却时间与 "购买'兼并行星'" 能力共享.[/color][/i]
 >>
-ABL_BUY_ANNEX_PLANET: Purchase 'Annex Planet'
+ABL_BUY_ANNEX_PLANET: 购买'兼并行星'
 ABL_BUY_ANNEX_PLANET_DESC: <<
-	Purchase an 'Annex Planet' diplomacy card using this planet's ability.
+	使用本行星的能力来购买 '兼并行星' 外交卡牌.
 
-	[i][color=#aaa]Cooldown is shared with "Purchase 'Name Flagship'" ability.[/color][/i]
+	[i][color=#aaa]冷却时间与 "购买'荣誉舰名'" 能力共享.[/color][/i]
 >>
 
-PHOSPHATE: Phosphate
+PHOSPHATE: 磷酸盐
 PHOSPHATE_BLURB: <<
-	Increases fleet strength in allied systems by [levels=$1;#ffb4b6]5%/10%/15%/25%/40%/60%[/levels].
+	提升所有盟军的舰队强度 [levels=$1;#ffb4b6]5%/10%/15%/25%/40%/60%[/levels].
 >>
 PHOSPHATE_DESC: <<
-	Fleets fighting in any systems you control gain [levels=$1;#ffb4b6]5%/10%/15%/25%/40%/60%[/levels] extra strength.
+	在我们势力范围内的舰队, 战斗时都将获得 [levels=$1;#ffb4b6]5%/10%/15%/25%/40%/60%[/levels] 实力加成.
 
-	[i][color=#aaa]This resource is a scalable resource and cannot be exported or used to level up. Its bonuses depend on the level of the planet.[/color][/i]
+	[i][color=#aaa]这是种动态资源, 也不能用于出口或升级. 它的效果取决于星球的级别.[/color][/i]
 >>
 
-CYLLIUM: Cyllium
+CYLLIUM: 西里姆
 CYLLIUM_BLURB: <<
-	Increases civilian energy generation.
-	Generates artifacts over time.
+	提升民用能量产出. 定时生成文物.
 >>
 CYLLIUM_DESC: <<
-	Energy generation on this planet is increased by [levels=$1;#ffb4b6]10%/20%/30%/40%/50%/60%[/levels].
+	这颗星球的能量生产增加 [levels=$1;#ffb4b6]10%/20%/30%/40%/50%/60%[/levels].
 
-	Generates a new random artifact in the system every 2 minutes. Up to [levels=$1;#ffb4b6]1/2/3/5/8/15[/levels] artifacts will remain in the system, older artifacts will expire.
+	在星系中, 每 2 分钟制造一个随机文物. 最多存在 [levels=$1;#ffb4b6]1/2/3/5/8/15[/levels] 个文物, 旧的文物将被淘汰.
 
-	[b]If this planet is Level 4 or higher:[/b]
-	[offset=30]Artifacts in this system are 25% cheaper to activate.[/offset]
+	[b]如果这颗星球级别在 4 或更高:[/b]
+	[offset=30]文物在这个星系中的激活成本降低 25%.[/offset]
 
-	[i][color=#aaa]This resource is a scalable resource and cannot be exported or used to level up. Its bonuses depend on the level of the planet.[/color][/i]
+	[i][color=#aaa]这是种动态资源, 也不能用于出口或升级. 它的效果取决于星球的级别.[/color][/i]
 >>
 
-R_SPACEFERNS: Cremin Ferns
+R_SPACEFERNS: 克雷明蕨类植物
 R_SPACEFERNS_BLURB: <<
-	[font=Small]Reduce engine maintenance by [levels=$1;#ffb4b6]5% / 10% / 25% / 50% / 75% / 90%[/levels]. Gain various pressures per level.[/font]
+	[font=Small]降低引擎的养护成本 [levels=$1;#ffb4b6]5% / 10% / 25% / 50% / 75% / 90%[/levels]. 每级都能获得一些潜力.[/font]
 >>
 R_SPACEFERNS_DESC: <<|
-	The omnivorous ferns that have evolved to cover the entire surface of this planet have a myriad of useful and interesting properties. Beyond their stems serving as a delicacy for several species, they emit an extremely potent gaseous fuel as a byproduct of their efficient metabolism.
+	历经万年进化的杂食性蕨类植物, 不但覆盖了星球表面, 还具有无数有用和有趣的特性. 除了它们的茎可以作为美味食物之外, 它们还挥发出极其有效的气体燃料, 作为其有效代谢的副产品.
 
-	This planet only requires large quantities of food and water to level up.
+	这颗星球只需要大量的水与食物, 即可升级.
 
-	Holding this planet reduces the maintenance cost of all the engines on your ships by [levels=$1;#ffb4b6]5%/10%/25%/50%/75%/90%[/levels].
+	拥有这颗行星, 降低了我们所有船只的引擎维护费: [levels=$1;#ffb4b6]5%/10%/25%/50%/75%/90%[/levels].
 
-	The planet gains various extra pressure as it is leveled; gaining 2 Energy pressure at Level 1, 3 Money pressure at Level 2, 4 Influence pressure at Level 3, 5 Energy pressure at level 4, and 6 Influence pressure at level 5.
+	升级后, 这颗星球也会获得额外的潜力; 1 级时给予 2 点能量潜力, 2 级时给予 3 金融潜力, 3 级时给予 4 影响力潜力, 4 级时给予 5 点能量潜力, 5 级时给予 6 影响力潜力.
 >>
 
-C_ORE: Ore
+C_ORE: 矿石
 C_ORE_DESC: <<
-	Generic building materials mined from asteroids and used for construction in various ways.
+	从小行星开采通用建筑材料, 并用于多样的建筑方式.
 >>
 
-R_SILICON: Silicon
+R_SILICON: 硅晶体
 R_SILICON_DESC: <<
-	Increases population growth rate by 30%.
+	提升生育率 30%.
 >>
 
-R_MARBLE: Marble
+R_MARBLE: 大理石
 R_MARBLE_DESC: <<
-	Increases building construction speed by 50%.
+	提升建造速度 50%.
 >>
 
-R_ATIUM: Atium
+R_ATIUM: 奥提姆
 R_ATIUM_DESC: <<
-	Grants vision over all fleets heading to the system this Atium planet is in.
+	在行星拥有奥提姆的情况下, 可以为星系内的舰队提供更远的正面视野.
 >>
 
-R_SYRUP: Syrup
+R_SYRUP: 糖浆
 R_SYRUP_DESC: <<
-	Can be used as food. Increases Influence pressure by 30%.
+	充当食物. 食用它, 可以提高影响力潜力 30%.
 >>
 
-R_LATTICES: Crystal Lattices
+R_LATTICES: 水晶点阵
 R_LATTICES_DESC: <<
-	Increases Research pressure by 40%. Decreases Energy pressure by 40%.
+	提高研究潜力 40%. 降低能量潜力 by 40%.
 >>
 
 R_HYPERVOLATILES: Hypervolatiles
 R_HYPERVOLATILES_DESC: <<
-	Increases Defense pressure by 40%. Decreases Influence pressure by 40%.
+	提高防御潜力 40%. 降低影响力潜力 by 40%.
 >>
 
-R_ORE_RATE: Ore
+R_ORE_RATE: 矿石
 R_ORE_RATE_DESC: <<
-	Generates 60 Ore per minute. Can be exported to other planets.
+	每分钟生成 10 单位矿石. 可以出口到其他星球.
 >>
 
-C_BASE_MATERIAL: Base Material
+C_BASE_MATERIAL: 基础材料
 C_BASE_MATERIAL_DESC: <<
-	Basic matter building blocks that can be used to generate many different things.
+	基础的块状建筑材料, 可以用来生产许多东西.
 
-	Consumed by certain buildings for production.
+	被某些建筑在生产过程中使用掉.
 >>
 
-R_BASE_MATERIAL: Base Material
+R_BASE_MATERIAL: 基础材料
 R_BASE_MATERIAL_DESC: <<
-	Generates 10 Base Material per minute. Can be exported to other planets.
+	每分钟生成 10 单位基础材料. 可以出口到其他星球.
 >>

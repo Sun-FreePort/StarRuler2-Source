@@ -38,7 +38,7 @@ STOP_IMPORT_RESOURCE: 中止从 $2 进口 $1
 STOP_IMPORT_RES_QUEUE: 取消队列中 "从 $2 进口 $1" 的任务
 RESOURCE_POP_REQUIRED: 需要至少 [b]$1 B (十亿)[/b] 人口才能生产.
 RESOURCE_LEVEL_REQUIRED: 需要至少 $1 级行星才能生产.
-RESOURCE_TIER_DESC: [b]$1 层级[/b] [img=$2;18/]的资源: 需要等级 $1 的星球才能生产.
+RESOURCE_TIER_DESC: $1 级的星球能生产 [b]$1 级[/b] [img=$2;18/]的资源.
 RESOURCE_EXPORTED_TO: 出口至 $1...
 RESOURCE_IMPORTED_FROM: 从 $1 进口...
 ONLY_WITH_RESOURCES: 只能以行星或小行星为目标.
@@ -48,7 +48,7 @@ POP_REQ: [img=ResourceIcon::8;20/] [color=#ff9000][b]$1[/b]+ 人口[/color]
 REQ_STOP_DECAY: 资源短缺! 行星级别从 $2 衰退至 $1, 除非再次满足:
 REQ_TYPE: [font=Subtitle]任意 [b]$1[/b] [img=$2;26/]资源[/font]
 REQ_TYPE_UNIQUE: 任意特定类型的 $1:
-REQ_LEVEL: [font=Subtitle]任意 [b]$1 层级[/b] [img=$2;26/]资源[/font]
+REQ_LEVEL: [font=Subtitle]任意 [b]$1 级[/b] [img=$2;26/]资源[/font]
 REQ_LEVEL_UNIQUE: 任意特定类型的 $1 级资源:
 WAIT_CONSTRUCT: 在问题解决前, 无法动工.
 CONSTRUCTION_REQUIRES_LEVEL: 建造需要行星等级至少为 $1.
@@ -365,9 +365,7 @@ COND_BARREN_DESC: <<|
 
 COND_MOON: 卫星
 COND_MOON_DESC: <<
-	行星外围有一颗足够大的卫星, 可以在其上构建一个卫星基地.
-
-	这预示着更多的卫星与潜在的月球基地.
+	近地轨道存在大卫星, 可以在上面建造卫 星基地.
 >>
 
 COND_EXTRA_PRESSURE: 出云山脉

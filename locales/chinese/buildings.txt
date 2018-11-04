@@ -20,7 +20,7 @@ BLD_TT_COST: [b]基础费用:[/b] [offset=120]$1[/offset]
 
 BLD_BASE: 基地
 BLD_BASE_DESC: <<
-	每分钟生产 1 点防御值. 消耗 1 点防御潜力.
+	[i]每分钟生产 1 点防御值. 消耗 1 点防御潜力.[/i]
 
 	[img=$Defense;22/] [bbloc=#PRESSURE_Defense/]
 
@@ -29,8 +29,8 @@ BLD_BASE_DESC: <<
 
 BLD_BAZAAR: 集市
 BLD_BAZAAR_DESC: <<
-	通过升级市场获得.
-	每周期生产 §110k 预算. 消耗 2 点金融潜力.
+	[i]通过升级市场获得.[/i]
+	[i]每周期生产 §110k 预算. 消耗 2 点金融潜力.[/i]
 
 	[img=$Money;22/] [bbloc=#PRESSURE_Money/]
 
@@ -41,8 +41,8 @@ BLD_BAZAAR_DESC: <<
 
 BLD_BROADCAST: 广播中心
 BLD_BROADCAST_DESC: <<
-	通过升级媒体中心获得.
-	增加 1.5 影响力权重. 消耗 2 点影响力潜力.
+	[i]通过升级媒体中心获得.[/i]
+	[i]增加 1.5 影响力权重. 消耗 2 点影响力潜力.[/i]
 
 	[img=$Influence;22/] [bbloc=#PRESSURE_Influence/]
 
@@ -52,7 +52,7 @@ BLD_BROADCAST_DESC: <<
 
 BLD_CITY: 城市
 BLD_CITY_DESC: <<
-	为人们提供居住的一系列设施.
+	[i]为人们提供居住的一系列设施.[/i]
 >>
 
 BLD_ENTERPRISE: 大型企业
@@ -69,7 +69,7 @@ BLD_ENTERPRISE_DESC: <<
 
 BLD_FACTORY: 工厂
 BLD_FACTORY_DESC: <<
-	增加这颗行星的生产力.
+	[i]增加这颗行星的生产力.[/i]
 >>
 
 BLD_FTLSTORE: FTL 仓库
@@ -90,17 +90,17 @@ TIP_CIV_UPGRADES: <<
 
 BLD_FARM: 巨型农场
 BLD_FARM_DESC: <<
-	生产不可出口的食物资源.
+	[i]生产不可出口的食物资源.[/i]
 >>
 
 BLD_HYDROGENATOR: 淡水提取器
 BLD_HYDROGENATOR_DESC: <<
-	生产不可出口的水资源.
+	[i]生产不可出口的水资源.[/i]
 >>
 
 BLD_GENERATOR: 发电机
 BLD_GENERATOR_DESC: <<
-	增加能源产出.当前存储的能量越多, 新增的能源就越少. 消耗 1 点能量潜力.
+	[i]增加能源产出. 当前存储的能量越多, 新增的能源就越少. 消耗 1 点能量潜力.[/i]
 
 	[img=$Energy;22/] [bbloc=#PRESSURE_Energy/]
 
@@ -109,7 +109,7 @@ BLD_GENERATOR_DESC: <<
 
 BLD_INDUSTRY: 工业园
 BLD_INDUSTRY_DESC: <<
-	每分钟增加 2 点生产力. 消耗 2 点生产潜力.
+	[i]每分钟增加 2 点生产力. 消耗 2 点生产潜力.[/i]
 
 	[img=$Labor;22/] [bbloc=#PRESSURE_Labor/]
 
@@ -118,8 +118,8 @@ BLD_INDUSTRY_DESC: <<
 
 BLD_LAUNCHPAD: 发射井
 BLD_LAUNCHPAD_DESC: <<
-	通过升级基地获得.
-	每分钟制造 1.5 点防御值. 消耗 2 点防御潜力.
+	[i]通过升级基地获得.[/i]
+	[i]每分钟制造 1.5 点防御值. 消耗 2 点防御潜力.[/i]
 
 	[img=$Defense;22/] [bbloc=#PRESSURE_Defense/]
 
@@ -130,7 +130,7 @@ BLD_LAUNCHPAD_DESC: <<
 
 BLD_MARKET: 市场
 BLD_MARKET_DESC: <<
-	每周期生产 §75k 预算. 消耗 1 点金融潜力.
+	[i]每周期生产 §75k 预算. 消耗 1 点金融潜力.[/i]
 
 	[img=$Money;22/] [bbloc=#PRESSURE_Money/]
 
@@ -139,15 +139,12 @@ BLD_MARKET_DESC: <<
 
 BLD_MEDIACENTER: 媒体中心
 BLD_MEDIACENTER_DESC: <<
-	增加 1 影响力权重. 消耗 1 点影响力潜力.
+	[i]增加 1 影响力权重. 消耗 1 点影响力潜力.[/i]
 
 	[img=$Influence;22/] [bbloc=#PRESSURE_Influence/]
 
 	[bbloc=#TIP_PRESSURE/]
 >>
-
-BLD_GENERATOR: 发电机
-BLD_GENERATOR_DESC: <<
 
 BLD_POWERPLANT: 发电厂
 BLD_POWERPLANT_DESC: <<
@@ -171,8 +168,8 @@ BLD_RESEARCHCOMPLEX_DESC: <<
 
 BLD_TECHCENTER: 技术中心
 BLD_TECHCENTER_DESC: <<
-	通过升级大学获得.
-	增加研究能力. 消耗 2 点研究潜力.
+	[i]通过升级大学获得.[/i]
+	[i]增加研究能力. 消耗 2 点研究潜力.[/i]
 
 	[img=$Research;22/] [bbloc=#PRESSURE_Research/]
 
@@ -183,7 +180,7 @@ BLD_TECHCENTER_DESC: <<
 
 BLD_UNIVERSITY: 大学
 BLD_UNIVERSITY_DESC: <<
-	增加研究能力. 消耗 1 点研究潜力.
+	[i]增加研究能力. 消耗 1 点研究潜力.[/i]
 
 	[img=$Research;22/] [bbloc=#PRESSURE_Research/]
 
@@ -193,9 +190,9 @@ BLD_UNIVERSITY_DESC: <<
 
 BLD_FORGE: 铸造车间
 BLD_FORGE_DESC: <<|
-	提升生产力 (+25%).
+	[i]提升生产力 (+25%).[/i]
 
-	本地的铸造车间越多, 随后新建的锻造车间将更大, 但也更贵.
+	[i]本地的铸造车间越多, 随后新建的锻造车间将更大, 但也更贵.[/i]
 >>
 
 STATUS_HAS_DEFENSES: 防御工事
@@ -203,86 +200,86 @@ STATUS_HAS_DEFENSES_DESC: 在星球表面或者近地轨道上拥有防御工事
 
 BLD_DEFENSE_GRID: 行星防御网络
 BLD_DEFENSE_GRID_DESC: <<|
-	大量导弹发射井建立在行星表面, 能够射击敢于靠近的敌方.
+	[i]大量导弹发射井建立在行星表面, 能够射击敢于靠近的敌方.[/i]
 
-	该网格系统由 10 飞弹发射井构成, 在 450 天文单位的距离内, 可造成 250 DPS 的伤害.
+	[i]该网格系统由 10 飞弹发射井构成, 在 450 天文单位的距离内, 可造成 250 DPS 的伤害.[/i]
 
 	[i]警告: 如果敌人已经摧毁了我们的外太空舰队, 迫于生存, 行星防御网络将保持停止反击.[/i]
 >>
 
 BLD_PLANET_CANNON: 地基加农炮
 BLD_PLANET_CANNON_DESC: <<|
-	一门巨大的轨道炮. 以行星为后坐力载体, 推动超大型炮弹攻击星系内的敌军舰队, 拥有毁灭性的破坏力.
+	[i]一门巨大的轨道炮. 以行星为后坐力载体, 推动超大型炮弹攻击星系内的敌军舰队, 拥有毁灭性的破坏力.[/i]
 
-	在 1500 天文单位的距离内, 这门加农炮每 5 秒造成 200 点伤害.
+	[i]在 1500 天文单位的距离内, 这门加农炮每 5 秒造成 200 点伤害.[/i]
 
 	[i]警告: 如果敌人已经摧毁了我们的外太空舰队, 迫于生存, 将保持停止反击.[/i]
 >>
 
 BLD_WAREHOUSE: 仓库
 BLD_WAREHOUSE_DESC: <<|
-	存储 100 点生产力.
+	[i]存储 100 点生产力.[/i]
 
-	当不建造任何项目时, 产能会自动存储直至储满. 在建造活动进行时, 为施工项目提供额外的产能.
+	[i]当不建造任何项目时, 产能会自动存储直至储满. 在建造活动进行时, 为施工项目提供额外的产能.[/i]
 >>
 
 BLD_METROPOLIS: 大都会
 BLD_METROPOLIS_DESC: <<|
-	一个大型的城市区域, 可以连接多个小城市的城市群核心.
+	[i]一个大型的城市区域, 可以连接多个小城市的城市群核心.[/i]
 
-	最多可替换 5 普通城市.
+	[i]最多可替换 5 普通城市.[/i]
 
-	使星球的总潜力增强 5 点.
+	[i]使星球的总潜力增强 5 点.[/i]
 >>
 
 BLD_MEGACITY: 超级都市
 BLD_MEGACITY_DESC: <<|
-	贯穿地表到天空的庞大建筑体系. 因为对空间的高效利用, 新的效率革命由此产生.
+	[i]贯穿地表到天空的庞大建筑体系. 因为对空间的高效利用, 新的效率革命由此产生.[/i]
 
-	最多可替换 16 普通城市.
+	[i]最多可替换 16 普通城市.[/i]
 
-	使星球的总潜力增强 9 点.
+	[i]使星球的总潜力增强 9 点.[/i]
 
-	提升这颗行星在影响力 / 能量 / 科研水准的产出能力 (+25%).
+	[i]提升这颗行星在影响力 / 能量 / 科研水准的产出能力 (+25%).[/i]
 >>
 
 BLD_SPIRE: 螺旋都市
 BLD_SPIRE_DESC: <<|
-	一个螺旋的城市穿过天空, 部分甚至到达了外太空, 你想看看这壮阔的银河吗?
+	[i]一个螺旋的城市穿过天空, 部分甚至到达了外太空, 你想看看这壮阔的银河吗?[/i]
 
-	最多可替换 20 普通城市.
+	[i]最多可替换 20 普通城市.[/i]
 
-	当前星球存在的每种潜力类型, 都各增强 3 点.
+	[i]当前星球存在的每种潜力类型, 都各增强 3 点.[/i]
 
 	[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]建造螺旋都市需要大量的矿石, 开采小行星是个不错的主意.[/color][/b][/img]
 >>
 
 BLD_REFINERY: 精炼厂
 BLD_REFINERY_DESC: <<|
-	为本土资源的主要潜力类型生产 1 点潜力, 但会降低总潜力上限 1. (翻译存疑)
+	[i]为本土资源的主要潜力类型生产 1 点潜力, 但会降低总潜力上限 1. (翻译存疑)[/i]
 
-	这种人工潜力仅能使用在本行星, 当本土资源进入出口状态, 也无法一起出口或删除.
+	[i]这种人工潜力仅能使用在本行星, 当本土资源进入出口状态, 也无法一起出口或删除.[/i]
 
 	[i]提醒: 当一颗星球仅有人工创造的潜力, 或者它的天然潜力全部用于金融方向, 本建筑就失去了建造的基础.[/i]
 >>
 
 BLD_MUSEUM: 博物馆
 BLD_MUSEUM_DESC: <<
-	启动建造计划就可以获得 10 点影响力. 作为代价, 一旦建成后, 该建筑再也不能拆除.
+	[i]启动建造计划就可以获得 10 点影响力. 作为代价, 一旦建成后, 该建筑再也不能拆除.[/i]
 
-	增强行星 1 点影响力股份.
+	[i]增强行星 1 点影响力股份.[/i]
 >>
 
 BLD_PLANET_ENGINE: 行星引擎
 BLD_PLANET_ENGINE_DESC: <<
-	在这颗星球的地表构建一座怪异而巨大的推进器, 允许行星产生一丁点移动能力.
+	[i]在这颗星球的地表构建一座怪异而巨大的推进器, 允许行星产生一丁点移动能力.[/i]
 
-	给予这颗星球每秒 0.5 u/s² 的加速度. 多个引擎可以叠加效果 -- 你知道恐龙为何灭绝吗?
+	[i]给予这颗星球每秒 0.5 u/s² 的加速度. 多个引擎可以叠加效果 -- 你知道恐龙为何灭绝吗?[/i]
 >>
 
 BLD_FTLBREEDER: FTL 增量反应堆
 BLD_FTLBREEDER_DESC: <<
-	一个由 FTL 能量激发, 并会由此产出更多的 FTL 能量的大型反应堆, 唯一的缺憾就是: 在生产过程中, 附近的所有生命体都将受到致命级辐射.
+	[i]一个由 FTL 能量激发, 并会由此产出更多的 FTL 能量的大型反应堆, 唯一的缺憾就是: 在生产过程中, 附近的所有生命体都将受到致命级辐射.[/i]
 
 	[b]仅 Mechanoid 种族拥有建造它的能力.[/b]
 
@@ -295,7 +292,7 @@ BLD_SPACE_ELEVATOR_DESC: <<
 
 	[i]该行星的支援舰建造速度增幅 40%.[/i]
 
-	每颗行星仅能制造一台.
+	[i]每颗行星仅能制造一台.[/i]
 >>
 
 BLD_BARRACKS: 兵营
@@ -314,7 +311,7 @@ ABL_ANCIENT_BUILD_MINER: 试图建造 [剥夺者矿业基地]
 ABL_ANCIENT_BUILD_MINER_DESC: 移动至目标行星, 并试图建造剥夺者矿业基地. 倘若需要的建筑资金不足, 建筑将成为烂尾项目.
 BLD_ANCIENT_MINER: 剥夺者矿业基地
 BLD_ANCIENT_MINER_DESC: <<
-	将行星的资源转化为可出口和生产的矿石资源. 在它的目的地 [b]每分钟生成 60 单位的矿石[/b].
+	[i]将行星的资源转化为可出口和生产的矿石资源. 在它的目的地 [b]每分钟生成 60 单位的矿石[/b].[/i]
 
 	[bbloc=#TIP_CONTROL_HUB/]
 >>
@@ -322,7 +319,7 @@ ABL_ANCIENT_BUILD_TRANSMUTER: 试图建造 [粒子构造器]
 ABL_ANCIENT_BUILD_TRANSMUTER_DESC: 移动至目标行星, 并试图建造粒子构造器. 倘若需要的建筑资金不足, 建筑将成为烂尾项目.
 BLD_ANCIENT_TRANSMUTER: 粒子构造器
 BLD_ANCIENT_TRANSMUTER_DESC: <<
-	将行星的资源转化为可出口和生产的基础材料资源. 在它的目的地 [b]每分钟生成 10 单位的基础材料[/b].
+	[i]将行星的资源转化为可出口和生产的基础材料资源. 在它的目的地 [b]每分钟生成 10 单位的基础材料[/b].[/i]
 
 	[bbloc=#TIP_CONTROL_HUB/]
 >>
@@ -330,11 +327,11 @@ ABL_ANCIENT_BUILD_CORE: 试图建造 [终极]
 ABL_ANCIENT_BUILD_CORE_DESC: 移动至目标行星, 并试图建造终极. 倘若需要的建筑资金不足, 建筑将成为烂尾项目.
 BLD_ANCIENT_CORE: 终极
 BLD_ANCIENT_CORE_DESC: <<
-	增强本土资源所提供的潜力. (+50%)
+	[i]增强本土资源所提供的潜力. (+50%)[/i]
 
-	从此, 本星球的自然资源不能出口.
+	[i]从此, 本星球的自然资源不能出口.[/i]
 
-	在这颗行星上, 由小行星进口而来的潜力是自动进入生产状态的.
+	[i]在这颗行星上, 由小行星进口而来的潜力是自动进入生产状态的.[/i]
 
 	[bbloc=#TIP_CONTROL_HUB/]
 >>
@@ -347,28 +344,28 @@ TIP_CONSUME_BASE_MATERIAL: <<
 
 STATUS_ANCIENT_REQUIRE_BASE_MAT: 需要基础材料
 STATUS_ANCIENT_REQUIRE_BASE_MAT_DESC: <<
-	这颗星球需要一种或更多的基础材料供给, 以使其建筑全面运作.
+	[i]这颗星球需要一种或更多的基础材料供给, 以使其建筑全面运作.[/i]
 >>
 
 BLD_ANCIENT_REFINERY: 燃料精炼厂
 BLD_ANCIENT_REFINERY_DESC: <<
-	增强本土资源所提供的潜力. (+30%)
+	[i]增强本土资源所提供的潜力. (+30%)[/i]
 
 	[bbloc=#TIP_CONSUME_BASE_MATERIAL:10/]
 >>
 
 BLD_ANCIENT_DOCK: 船坞
 BLD_ANCIENT_DOCK_DESC: <<
-	因为古老的传统, 这颗星球建造的舰船更为经久耐用. (+10%)
+	[i]因为古老的造船历史, 这颗星球建造的舰船更为经久耐用. (+10%)[/i]
 
-	为这颗星球提供 100 点支援容量.
+	[i]为这颗星球提供 100 点支援容量.[/i]
 >>
 
 BLD_ANCIENT_NETWORK: 互联网
 BLD_ANCIENT_NETWORK_DESC: <<
-	时光荏苒, 当地政府与机构合作构建了一些防御卫星.
+	[i]时光荏苒, 当地政府与机构合作构建了一些防御卫星.[/i]
 
-	增加这颗星球对中央政权的忠诚度. (+3)
+	[i]增加这颗星球对中央政权的忠诚度. (+3)[/i]
 >>
 
 TIP_CONSUME_ORE: <<
@@ -379,53 +376,53 @@ TIP_CONSUME_ORE: <<
 
 BLD_ANCIENT_FOUNDRY: 铸造工厂
 BLD_ANCIENT_FOUNDRY_DESC: <<
-	增强本行星的生产力. 这些效益源于研究中, 工厂部分的科研项目.
+	[i]增强本行星的生产力. 这些效益源于研究中, 工厂部分的科研项目.[/i]
 
-	当这颗星球使用生产力时, 每秒需要消耗 2 单位矿石.
+	[i]当这颗星球使用生产力时, 每秒需要消耗 2 单位矿石.[/i]
 
 	[b][img=ResourceIconsSmall::65;20/] [color=#91692c]消耗矿石:[/color][/b][offset=150]2 / 秒[/offset]
 >>
 
 BLD_ANCIENT_LAB: 实验室
 BLD_ANCIENT_LAB_DESC: <<
-	增强这颗星球的研究产出. (+1)
+	[i]增强这颗星球的研究产出. (+1)[/i]
 
 	[bbloc=#TIP_CONSUME_ORE:30/]
 >>
 
 BLD_ANCIENT_COMPRESSOR: 压缩机
 BLD_ANCIENT_COMPRESSOR_DESC: <<
-	你所有的舰船都减少了 8% 的质量.
+	[i]你所有的舰船都减少了 8% 的质量.[/i]
 
 	[bbloc=#TIP_CONSUME_BASE_MATERIAL:10/]
 >>
 
 BLD_ANCIENT_REINFORCER: 强化器
 BLD_ANCIENT_REINFORCER_DESC: <<
-	On 你全部的舰船, 炮塔和子系统核心, 以及你的控制核心都提升了 25% 的耐久与质量.
+	[i]你全部的舰船, 炮塔和子系统核心, 以及你的控制核心都提升了 25% 的耐久与质量.[/i]
 
 	[bbloc=#TIP_CONSUME_BASE_MATERIAL:10/]
 >>
 
 BLD_ANCIENT_DEVELOPER: 开发人员
 BLD_ANCIENT_DEVELOPER_DESC: <<
-	你所有的舰船的支援控制能力略微增加 (+5%), 但质量增加了很多. (+25%)
+	[i]你所有的舰船的支援控制能力略微增加 (+5%), 但质量增加了很多. (+25%)[/i]
 
 	[bbloc=#TIP_CONSUME_BASE_MATERIAL:10/]
 >>
 
 BLD_ANCIENT_INFUSER: 养护塔
 BLD_ANCIENT_INFUSER_DESC: <<
-	只能建筑在动态类资源上. 提升这颗星球的等级. (+1)
+	[i]只能建筑在动态类资源上. 提升这颗星球的等级. (+1)[/i]
 
 	[bbloc=#TIP_CONSUME_BASE_MATERIAL:30/]
 >>
 
 BLD_ANCIENT_DEPOT: 仓库
 BLD_ANCIENT_DEPOT_DESC: <<
-	在这颗星球上储存 100 点生产力.
+	[i]在这颗星球上储存 100 点生产力.[/i]
 
-	将 10 点防御值储备到你的中央仓库.
+	[i]将 10 点防御值储备到你的中央仓库.[/i]
 
 	[bbloc=#TIP_CONSUME_BASE_MATERIAL:10/]
 >>

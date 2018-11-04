@@ -97,7 +97,7 @@ ORB_SHIPYARD_DESC: <<|
 
 	Construction of ships on a shipyard has a 20% cheaper build cost.
 
-	Has 6 innate Labor generation per minute. Planets can export their own
+	Has 6 innate 生产力产出 per minute. Planets can export their own
 	labor to shipyards within trade range at a 75% reduced rate.
 
 	Gains Labor from Metallurgy factory research at a 75% reduced rate.

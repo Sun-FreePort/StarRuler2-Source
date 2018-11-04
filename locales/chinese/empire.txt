@@ -49,7 +49,7 @@ TRAIT_POOR_DESC: <<|
 
 TRAIT_INDUSTRIOUS: Industrious
 TRAIT_INDUSTRIOUS_DESC: <<|
-	The homeworld starts with $1 extra labor generation.
+	The homeworld starts with $1 extra 生产力产出.
 >>
 
 TRAIT_FTLCACHE: FTL Cache
@@ -86,7 +86,7 @@ TRAIT_EMPIRE: Government: Empire
 TRAIT_EMPIRE_DESC: <<
 	[vspace=6/][b][color=#0f0]Bonus:[/color][/b] [offset=140][color=#a06911]Extra nearby Asteroids[/color][/offset].
 	[vspace=6/][b][color=#f00]Starting Fleet:[/color][/b] [offset=140]Heavy Carrier with support.[/offset]
-	[vspace=6/][b][color=#0087c7]Starting Cards:[/color][/b] [offset=140]5x Negotiate, 1x Name Flagship, 1x Name Planet.[/offset]
+	[vspace=6/][b][color=#0087c7]Starting Cards:[/color][/b] [offset=140]5x Negotiate, 1x 荣誉舰名, 1x Name Planet.[/offset]
 	[dlc=Heralds][vspace=6/][b][color=#63ebdb]Starting Attitude:[/color][/b] [offset=140]Level 1 [color=#c73434]Delinquent[/color][/offset][/dlc]
 >>
 
@@ -335,7 +335,7 @@ PRIV_TRAIT_TWINNED_DESC: <<
 PRIV_TRAIT_SHIPYARD: The Docks (Privilege)
 PRIV_TRAIT_SHIPYARD_DESC: <<
 	[i][color=#aaa]This AI was given a Privilege during game setup.[/color][/i]
-	Start with extra fleets and a shipyard with a large amount of labor generation.
+	Start with extra fleets and a shipyard with a large amount of 生产力产出.
 	All your ships have significantly reduced maintenance costs.
 >>
 
@@ -532,7 +532,7 @@ ORB_MAINFRAME_DESC: <<
 	Maintains the link of individual fleets to the collective network.
 
 	Fleets near mainframes fight with increased strength.
-	
+
 	Fleets far away from mainframes fight with significantly weakened strength.
 
 	The mainframe's weapons will only fire when it is currently in allied territory.
@@ -596,7 +596,7 @@ ORB_TEMPLE_DESC: <<
 STATUS_EVANGELIZED: Evangelized
 STATUS_EVANGELIZED_DESC: <<
 	This planet has been Evangelized by a nearby Star Temple. It provides 1 Influence Stake to its owner.
-	
+
 	If the Star Temple was owned by a different empire, that empire also gains 1 Influence Stake, as well as gaining bonus money equal to 10% of the income generated on this planet.
 
 	Evangelized planets cannot be captured through siege by any empire except the owner of the Star Temple.
@@ -629,7 +629,7 @@ ORB_BEACON_DESC: <<
 
 	When importing resources with energy, defense or research pressure, the beacon will slowly gain stores of Support which can be spent on various benefits and projects.
 
-	Importing resources with Labor pressure causes the beacon to gain labor generation.
+	Importing resources with Labor pressure causes the beacon to gain 生产力产出.
 >>
 
 RESEARCH_UNITS: Technology Support
@@ -688,9 +688,9 @@ CONS_BEACON_WEAPONS_DESC: <<
 >>
 CONS_BEACON_LABOR: Beacon Labor
 CONS_BEACON_LABOR_DESC: <<
-	Increases the Labor generation of your beacons by 3.
+	Increases the 生产力产出 of your beacons by 3.
 
-	Also increases the Labor generation of your beacons by the total amount granted by [b]Metallurgy[/b] technologies you've researched.
+	Also increases the 生产力产出 of your beacons by the total amount granted by [b]Metallurgy[/b] technologies you've researched.
 
 	[bbloc=#TIP_RESEARCH_UNITS/]
 >>
@@ -748,7 +748,7 @@ Checked Astrology, though, and I [b]do[/b] know that the Milky Way isn't anywher
 Ship's reactor is good for another three thousand years, give or take, if we can locate some more fuel.
 
 [font=Medium]Captain's Log, August 05 - 31330(?)[/font]
-[hr/]Mercy told me I should find someone else to lead the colony in case I kick the bucket. Redundancy. 
+[hr/]Mercy told me I should find someone else to lead the colony in case I kick the bucket. Redundancy.
 Just like a machine to worry about redundancy when people are staring at the corpses of their dead loved ones.
 I told her to do it herself.
 
@@ -765,7 +765,7 @@ She told me everyone was suffering - that it was my fault. I shut her down - I d
 
 I hear my 'replacement' is near finished with the training in the sim-pod. I've checked his data - I'm not impressed.
 We're deep in the unknown now. Back on Terra Firma, I looked up at the sky and saw just endless possibilities.
-Here on New Hope I look up and all I can feel is this creeping terror. Something is up there - and we're not prepared to meet 'em. 
+Here on New Hope I look up and all I can feel is this creeping terror. Something is up there - and we're not prepared to meet 'em.
 
 I hope to God that 'newbie's luck' applies to whatever it is we're heading for - something tells me the kid's going to need it.
 >>
@@ -786,7 +786,7 @@ The Great Wind will spread the Oko to the farthest lights and like spores in sum
 RACE_MONO: Mono
 RACE_MONO_TAGLINE: The will of the Creators.
 RACE_MONO_LORE: <<
-Memory Index 00: Tumbling through the Void on a stream of highly energized particles of unknown composition. 
+Memory Index 00: Tumbling through the Void on a stream of highly energized particles of unknown composition.
 Impact on planet surface at 3,012 kilometers per second. Catastrophic systems damage. 86% of stored information lost.
 Prime Directive: Survive.
 
@@ -959,6 +959,6 @@ HELP_EXTRAGALACTIC: <<
 
 	[font=Medium]Beacon Secondary Functions[/font][vspace=4/]
 	[color=#ccc]If you're using Jumpdrives, jumping to a system with a beacon is always safe![/color]
-	[color=#ccc]You can import resources with Labor Pressure to any of your beacons to increase their labor generation.[/color]
+	[color=#ccc]You can import resources with Labor Pressure to any of your beacons to increase their 生产力产出.[/color]
 >>
 GOT_IT: Got it!

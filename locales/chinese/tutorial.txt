@@ -270,7 +270,7 @@ TUT_BUILD2_ACT4_TEXT: Wait for Spacewood to finish constructing a Scout. Support
 TUT_SCOUT_TITLE: Scouting Xaste
 TUT_SCOUT_TEXT: <<|
 	Great! The fleet will automatically order its queued support groups from
-	any nearby planets with labor generation. Different flagships can support
+	any nearby planets with 生产力产出. Different flagships can support
 	differing amounts of supports, as indicated by the [b]"Support Capacity"[/b]
 	indicator above the supports list.
 

@@ -26,23 +26,23 @@ ERROR_MUST_BE_EXTERIOR: 所有 $1 网格必须都是外表面网格.
 ERROR_MUST_COVER: $1 必须覆盖飞船的所有方向.
 ERROR_ONE_APPLIED: 只能使用一个 $1.
 ERROR_CANNOT_APPLY: 不能使用 $1 子系统.
-ERROR_MUST_ADJACENT: All hexes must be adjacent to at least one $1.
-ERROR_MUST_ADJACENT_INTERIOR: Interior hexes must be adjacent to at least one $1.
-ERROR_CONTIGUOUS: $1 must be a connected whole.
-ERROR_MUST_BE_FILLED: Interior space must be filled.
-ERROR_EXPOSE_LEFT_RIGHT: $1 must be exterior on both the left and right sides of the design.
-ERROR_ONLY_ONE: Only one $1 is allowed.
-ERROR_NEED_PRAYER: Ship requires a Shrine to generate prayer.
-ERROR_EQUAL_PRAYER: Must have at least as much Prayer as Control.
-ERROR_NEED_SHIELD: $1 can only be used if the ship has Shields.
-ERROR_CANNOT_HAVE_WEAPONS: $1 cannot have weapons.
-ERROR_ALL_POWER: All power must come from the $1.
-ERROR_BRIDGE_AI: Ship cannot be controlled by both crew and an AI.
-ERROR_REQUIRE_SCOOP: $1 must contain at least one Ramscoop.
-ERROR_SCOOP_FACE_FRONT: Ramscoops must be exterior and face the front of the ship.
-ERROR_MUST_SURROUND: $1 must be surrounded by $2 hexes.
-ERROR_NOT_ALLOWED_ON_MOTHERSHIP: $1 is not allowed on Mothership hulls.
-REQUIRE_CONSTRUCTION_BAY: $1 requires Construction Bay to feed labor into.
+ERROR_MUST_ADJACENT: 组件整体必须与一个 $1 相邻.
+ERROR_MUST_ADJACENT_INTERIOR: 内部组件必须与一个 $1 相邻.
+ERROR_CONTIGUOUS: $1 必须是连接完备的整体.
+ERROR_MUST_BE_FILLED: 必须填充内部空间.
+ERROR_EXPOSE_LEFT_RIGHT: $1 必须位于外层的左右任意一侧.
+ERROR_ONLY_ONE: 仅允许一个 $1.
+ERROR_NEED_PRAYER: 舰船需要神殿进行祷告.
+ERROR_EQUAL_PRAYER: 祷告数量必须与控制能力一样多.
+ERROR_NEED_SHIELD: 想要装备 $1, 或许需要一个护盾装置.
+ERROR_CANNOT_HAVE_WEAPONS: $1 不能装备武器.
+ERROR_ALL_POWER: 所有能量必须都源于 $1.
+ERROR_BRIDGE_AI: 船只和 AI 无法提供足量的控制力.
+ERROR_REQUIRE_SCOOP: $1 必须拥有至少一个空气喷射器.
+ERROR_SCOOP_FACE_FRONT: 空气喷射器必须处于舰船外部, 并面向舰船前方.
+ERROR_MUST_SURROUND: $1 必须在 $2 组件内部.
+ERROR_NOT_ALLOWED_ON_MOTHERSHIP: 航母上不支持 $1.
+REQUIRE_CONSTRUCTION_BAY: $1 需要干船坞提供劳动力.
 APPLIED_HULL: 船体
 DESIGNS: 设计图
 DSG_INSERT_NAME: 为设计图取名...
@@ -89,7 +89,7 @@ TT_SHOW_OBSOLETE: 切换是否显示被标记为过时的设计图.
 TT_SUPPORT_DESIGN: 该设计图使用了支援舰船体. 支援舰不能独立移动, 而只能作为大型舰队的一份子, 以旗舰或行星为核心而存在.
 TT_FLAGSHIP_DESIGN: 该设计图使用了旗舰船体. 旗舰可以独立自主地行动, 并可为支援舰队提供指挥. 一艘旗舰可以带领的支援舰数量取决于该设计图拥有多少"支援舰指挥"值.
 TT_STATION_DESIGN: 该设计图使用了太空站船体. 太空站不能自主移动, 但可以作为轨道卫星远程建造.
-TT_SATELLITE_DESIGN: This design uses a support satellite hull.
+TT_SATELLITE_DESIGN: 该设计图使用卫星外壳.
 
 S_HP: 总耐久值
 S_HexHP: 耐久值
@@ -119,14 +119,14 @@ STT_SUPPORTCAP: 这艘旗舰最多所能指挥的支援舰的总规模之和.
 S_ACCEL: 加速
 STT_ACCEL: 这艘飞船工作时所能维持的最大加速速度.
 
-S_BOOST_ACCELERATION: Boost Acceleration
-STT_BOOST_ACCELERATION: The extra acceleration boost the ship gains while it is raiding. This is added to the base acceleration.
+S_BOOST_ACCELERATION: 速度加成
+STT_BOOST_ACCELERATION: 速度从安全到极限的冗余空间, 在突袭行动时, 舰船会将速度提升至极限.
 
 S_THRUST: 推力
 STT_THRUST: 这艘飞船在亚光速下能产生的最大推力.
 
-S_TURN_THRUST: Turn Rate
-STT_TURN_THRUST: The speed at which the ship can rotate to change direction.
+S_TURN_THRUST: 旋转速率
+STT_TURN_THRUST: 舰船在转向时的速度.
 
 S_MASS: 质量
 STT_MASS: 飞船的总质量.
@@ -149,29 +149,29 @@ STT_HYPERDRIVESPEED: 该飞船在为受伤害的情况下所能维持的跃迁�
 S_SLIPSTREAMTIME: 滑流时间
 STT_SLIPSTREAMTIME: 这艘飞船创造的滑流裂缝所能维持的时间.
 
-S_SLIPSTREAMOPTDIST: Slipstream Opt. Distance
-STT_SLIPSTREAMOPTDIST: Any slipstreams created further away than this distance will incur FTL cost penalties.
+S_SLIPSTREAMOPTDIST: 高效跃迁距离
+STT_SLIPSTREAMOPTDIST: 任何超过这个距离的跃迁都将导致 FTL 成本更快地增高.
 
-S_CargoStorage: Cargo Storage
-STT_CargoStorage: Used to store multiple types of materials, primarily those mined from asteroids.
+S_CargoStorage: 货物存储
+STT_CargoStorage: 用于存储各类材料, 比如从小行星挖掘出的矿物.
 
-S_MiningRate: Mining Rate
-STT_MiningRate: Rate at which this ship's mining laser can mine materials from asteroids and put them into cargo storage.
+S_MiningRate: 采矿速率
+STT_MiningRate: 采矿激光从小行星挖掘有用矿物的速度.
 
-S_LaborIncome: Labor Generation
-STT_LaborIncome: The amount of labor generated per minute by this ship's construction bays.
+S_LaborIncome: 生产力产出
+STT_LaborIncome: 这艘船每分钟能提供的生产力额度.
 
-S_OreProcessRate: Ore Processing
-STT_OreProcessRate: Ore stored ore mined by this ship is processed into labor at this rate.
+S_OreProcessRate: 矿石再加工
+STT_OreProcessRate: 舰船上存储的矿石经过再加工, 按本速率转化为生产力.
 
-S_LaborProcessRate: Processing Labor Output
-STT_LaborProcessRate: The amount of stored labor generated when enough ore is available to supply the full Ore Processing rate.
+S_LaborProcessRate: 处理劳动力输出
+STT_LaborProcessRate: 当有足够的矿石供应矿石再加工时, 可存储劳动力的生成量.
 
-S_OreCost: Ore Cost
-STT_OreCost: When building this ship, Ore mined from asteroids must be spent from local storage.
+S_OreCost: 矿石成本
+STT_OreCost: 建造这艘船时, 小行星开采出, 并存放在仓库中的矿物将被消耗.
 
-S_PRAYER: Prayer
-STT_PRAYER: The amount of prayer the shrine on the ship provides. Ships must have at least as much Prayer as they do Control.
+S_PRAYER: 祈祷值
+STT_PRAYER: 船只上神社可以产生的祈祷值, 必须与舰船的控制值一样多.
 
 S_DPS_SMALL: DPS
 S_DAMAGE: 伤害
@@ -194,20 +194,20 @@ S_RESUPPLY: 重填速率
 S_ENERGYCOST: 能量消耗
 S_COST_FACTOR: 成本参数
 S_STELLAR_DAMAGE: 星际伤害
-S_EFFICIENCYBOOST: Strength Boost
-S_Chance: Chance
-S_Percentage: Percentage
-S_PowerUse: Power Used
-S_BonusShield: Bonus Shields
-S_EnergyBuildCost: Energy Build Cost
-STT_EnergyBuildCost: The amount of the empire's energy that must be expended when first starting construction on a ship of this type.
-S_DroneCount: Drone Count
-S_SupplyGain: Supply Gain
-S_DamageOverTime: DoT DPS
-S_ConvertInterval: Conversion Interval
-S_InfluenceBuildCost: Influence Build Cost
-STT_InfluenceBuildCost: The amount of the empire's influence that must be expended when first starting construction on a ship of this type.
-S_FTLBuildCost: FTL Build Cost
-STT_FTLBuildCost: The amount of the empire's FTL energy that must be expended when first starting construction on a ship of this type.
-S_Instances: Instances
-S_RaidRange: Raiding Range
+S_EFFICIENCYBOOST: 结构奖励
+S_Chance: 基准
+S_Percentage: 百分比
+S_PowerUse: 能源使用
+S_BonusShield: 护盾奖励
+S_EnergyBuildCost: 能量
+STT_EnergyBuildCost: 首次在该类船舶上建造时, 必须消耗我们一定数量的能量.
+S_DroneCount: 无人机数量
+S_SupplyGain: 支持舰奖励
+S_DamageOverTime: 持续性每秒伤害
+S_ConvertInterval: 转换周期
+S_InfluenceBuildCost: 构建成本 (影响力)
+STT_InfluenceBuildCost: 首次在该类船舶上建造时, 必须消耗我们一定数量的影响力.
+S_FTLBuildCost: 构建成本 (FTL)
+STT_FTLBuildCost: 首次在该类船舶上建造时, 必须消耗我们一定数量的 FTL 能量.
+S_Instances: 详情
+S_RaidRange: 突袭范围

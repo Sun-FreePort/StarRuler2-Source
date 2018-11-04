@@ -143,7 +143,7 @@ UNDER_SIEGE_PLANETS: 行星正在被围攻
 DEFENSE_TARGETS: 在该地展开防御
 ALL_FLEETS: 军用旗舰
 CIVILIAN_FLEETS: 民用旗舰
-MOTHERSHIPS: 母舰
+MOTHERSHIPS: 航母
 DEFENSE_STATIONS: 防务太空站
 COMBAT_FLEETS: 舰队(交战中)
 FLEETS_LOW_SUPPLY: 支援舰数量过低
@@ -154,13 +154,13 @@ TT_AUTO_IMPORTS: 行星尚需等待 [img=$3;20/] [b]$1 份 $2 资源[/b] 才能�
 OVERPRESSURE_PLANETS: 强化行星容量
 
 ASTEROID_UNOWNED: <<
-	选择一颗劳工星球并右键这个小行星, 以构建一座[b][color=#8c4ec9]矿业基地[/color][/b], 从而获得一种资源.
+	选择一颗劳工星球并右键这个 小行星, 以构建一座[b][color=#8c4ec9]矿业基地[/color][/b], 从而获得一种资源.
 >>
 ASTEROID_OWNED: <<
 	这颗小行星拥有一个采矿基地.如果矿业失去贸易通道, 这个采矿基地将被摧毁.
 >>
 ASTEROID_MINING: <<
-	这颗小行星通过[color=#91692c][b]采矿船[/b][/color]开采稀缺矿物, 并运输到需要的行星.
+	这颗小行星通过[color=#91692c][b]采矿船[/b][/color]开采稀 缺矿物, 并运输到需要的行星.
 >>
 MOVE_TO_OBJ: 移动到 $1
 

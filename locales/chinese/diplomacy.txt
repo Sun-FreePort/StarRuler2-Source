@@ -338,31 +338,31 @@ CARD_BUREAUCRACY_DESC: <<|
 	Setting up arcane and convoluted bureaucratic systems for getting anything
 	done within the galactic senate forces all other empires to rely on your
 	understanding for guidance.
-	
+
 	[i]Whenever another empire starts a vote or persistent effect, you gain
 	leverage against them.[/i]
 >>
 EFFECT_BUREAUCRACY: Bureaucracy
 
-CARD_ANNEX_PLANET: Annex Planet
+CARD_ANNEX_PLANET: 兼并行星
 CARD_ANNEX_PLANET_DESC: <<|
 	Despite the current situation, certain territories belong to our empire by
 	right! We can petition the galactic senate to rectify the situation, and
 	try to convince them we deserve to be in control.
-	
+
 	[i]The influence cost to play this action depends on the loyalty of the
 	target planet. If the vote created by this action passes, you will gain
 	control of the planet. The target planet must be within your trade
 	borders.[/i]
 >>
-VOTE_ANNEX_PLANET: Annex Planet $1
+VOTE_ANNEX_PLANET: 兼并行星 $1
 
 CARD_ANNEX_SYSTEM: Annex System
 CARD_ANNEX_SYSTEM_DESC: <<|
 	Putting pressure on the galactic senate to act, we claim that the people of
 	the system are better off under our benevolent rule. The empires that control
 	it now are no good for the populace.
-	
+
 	[i]The influence cost to play this action depends on the loyalty of the
 	planets in the target system. If the vote created by this action passes,
 	you will gain control of those planets. The target system must be within
@@ -547,7 +547,7 @@ CARD_NAMEPLANET_DESC: <<|
 	it fame and prosperity.
 
 	[i]Renames an owned planet. The planet permanently receives +2 Maximum
-	Population and +1 Labor Generation. Planets can only be named once. Each
+	Population and +1 生产力产出. Planets can only be named once. Each
 	additional quality increases the added maximum population by 1.[/i]
 >>
 NAMEPLANET_NOTIFY: The $1 have gloriously named [b]$3[/b].
@@ -568,7 +568,7 @@ STATUS_SYSTEM_MORALE_DESC: <<|
 	this system, it will fight at +20% efficiency and combat strength.
 >>
 
-CARD_NAMEFLAGSHIP: Name Flagship
+CARD_NAMEFLAGSHIP: 荣誉舰名
 CARD_NAMEFLAGSHIP_DESC: <<|
 	Flagships are the backbone of the war effort, inspiring the hearts and
 	minds of many of our empire's loyal subjects. Bestowing an imposing name
@@ -667,7 +667,7 @@ CARD_INTELLIGENCE_DESC: <<|
 
 	[i]Can only be played if the $1 has voted on the opposite side of the proposition.
 	Each subsequent intelligence against the same empire played in the same vote loses 2 weight.
-	
+
 	You can only have 3 Intelligence about one empire at any time. If no
 	intelligence is being actively generated, your existing intelligence
 	will expire over time.[/i]
@@ -724,7 +724,7 @@ VOTE_SENATE_BUILDING: Host Galactic Senate on $1
 STATUS_SENATE_BUILDING: Hosting Galactic Senate Building
 STATUS_SENATE_BUILDING_DESC: <<|
 	This planet is hosting the senate building.
-	
+
 	The planet is gaining bonus influence generation per level and increases
 	the support level of votes you start by 2.
 >>
@@ -745,7 +745,7 @@ VOTE_UNITED_RESEARCH: Host United Research Center on $1
 STATUS_UNITED_RESEARCH: Hosting United Research Center
 STATUS_UNITED_RESEARCH_DESC: <<|
 	This planet is hosting the galactic united research center.
-	
+
 	The planet is gaining bonus research generation per level.
 >>
 
@@ -764,7 +764,7 @@ NOTIFY_GALAXY_MALL: The $1 have constructed the greatest Mall of the Galaxy on $
 STATUS_GALAXY_MALL: Mall of the Galaxy
 STATUS_GALAXY_MALL_DESC: <<|
 	This planet is home to the largest Mall of the Galaxy.
-	
+
 	Construction projects on this planet have reduced build cost.
 >>
 
@@ -773,7 +773,7 @@ CARD_DENOUNCE_DESC: <<|
 	No longer will we suffer the injustices of another. We fully denounce our
 	opponent, and commit our resources towards suporting any who would oppose
 	them.
-	
+
 	[i]The next cards to enter the influence card stack will all be leverage
 	against the targeted empire. Instantly rotates the influence card stack
 	when played.[/i]
@@ -1004,7 +1004,7 @@ CLAUSE_MUTUAL_DEFENSE: Mutual Defense
 CLAUSE_MUTUAL_DEFENSE_DESC: <<|
 	Empires that have signed this treaty promise to help and protect other
 	empires in the treaty.
-	
+
 	If any signatory empire goes to war, all signatories are automatically at war as well.
 >>
 
